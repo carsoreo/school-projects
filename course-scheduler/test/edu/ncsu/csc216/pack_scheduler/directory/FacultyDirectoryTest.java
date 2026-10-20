@@ -33,7 +33,6 @@ class FacultyDirectoryTest {
 		fd.addFaculty("Zahir", "King", "zking", "orci.Donec@ametmassaQuisque.com", "pw", "pw", 2);
 		String[][] s1 = fd.getFacultyDirectory();
 		String s1Name = s1[0][0];
-		//String[][] s2 = sd.getStudentById("zking").getStudentDirectory();
 		assertEquals(s1Name, fd.getFacultyById("zking").getFirstName());
 	}
 

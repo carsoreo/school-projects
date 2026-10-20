@@ -326,7 +326,6 @@ public class CourseTest {
         // The code below is commented out until you make some changes to Course.
         // Once those are made, remove the line of code fail() and uncomment the
         // provided tests.
-//        fail();
 
 		// Test valid course with meeting times (not arranged)
 		Course c1 = new Course(NAME, TITLE, SECTION, CREDITS, INSTRUCTOR_ID, ENROLLMENT_CAP, MEETING_DAYS, START_TIME, END_TIME);
@@ -376,7 +375,6 @@ public class CourseTest {
         // The code below is commented out until you make some changes to Course.
         // Once those are made, remove the line of code fail() and uncomment the
         // provided tests.
-//        fail();
 
 		Course c1 = new Course(NAME, TITLE, SECTION, CREDITS, INSTRUCTOR_ID, ENROLLMENT_CAP, MEETING_DAYS, START_TIME, END_TIME);
 		assertAll("Course",
@@ -406,7 +404,6 @@ public class CourseTest {
         // The code below is commented out until you make some changes to Course.
         // Once those are made, remove the line of code fail() and uncomment the
         // provided tests.
-//        fail();
 
 		Course c1 = new Course(NAME, TITLE, SECTION, CREDITS, INSTRUCTOR_ID, ENROLLMENT_CAP, MEETING_DAYS, START_TIME, END_TIME);
 		assertEquals("MW 1:30PM-2:45PM", c1.getMeetingString());

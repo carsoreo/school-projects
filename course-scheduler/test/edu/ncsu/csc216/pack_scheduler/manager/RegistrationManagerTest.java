@@ -118,7 +118,6 @@ public class RegistrationManagerTest {
 	@Test
 	public void testLoginRegistrar() {
 		//will fail until student directory is declared when constructing
-		//System.out.println(manager);
 		Properties prop = new Properties();
 		manager.logout();
 
@@ -134,11 +133,8 @@ public class RegistrationManagerTest {
 			fail();
 		}
 //		try {
-//			assermanager.login("jasd", "dakk");
-//			fail();
 //		} catch (IllegalArgumentException e){
 //			//Blank because it should go here
-//		}
 		assertFalse(manager.login("jasd", "dakk"));
 		
 	}
@@ -155,7 +151,6 @@ public class RegistrationManagerTest {
 				"goWolf", 10);
 		manager.getFacultyDirectory().addFaculty("First", "Last", "flast", "flast@d.com", "pw",
 				"pw", 2);
-		//System.out.println(manager);
 		try {
 			assertTrue(manager.login("flast", "pw"));
 			assertTrue(manager.getCurrentUser() instanceof User);

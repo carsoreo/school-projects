@@ -403,7 +403,6 @@ public class LinkedBinaryTreeTest {
         assertEquals(tree.remove(five), "five");
         assertEquals(tree.size(), 5);
         
-        //assertEquals("", tree.toString());
         
         try {
         	tree.remove(one);

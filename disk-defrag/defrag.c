@@ -57,7 +57,7 @@ typedef struct
 int main(int argc, char *argv[]) {
 
     if(argc != 2) {
-        perror("Invalid number of arguments");
+        fprintf(stderr, "usage: %s <disk image>\n", argv[0]);
         exit(1);
     }
 
@@ -78,7 +78,7 @@ int main(int argc, char *argv[]) {
         exit(1);
     }
     //open input file
-    f = fopen(argv[1], "r");
+    f = fopen(argv[1], "rb");
     if(f == NULL) {
         perror("fopen error");
         exit(1);
@@ -111,7 +111,6 @@ int main(int argc, char *argv[]) {
         numInodes++;
         inodeIndex++;
     }
-    // printf("there are %d inodes in this file", numInodes);
     diskImage *newDi = (diskImage *)calloc(1, sizeof(diskImage));
     
     //set up new disk image
@@ -140,35 +139,6 @@ int main(int argc, char *argv[]) {
     while ( ( (inodeIndex + 1) * sizeof(inode) ) < inodeRegionSize )
     {
         // //prints out inode information for debugging
-    	// printf("\nInode %d -\n", inodeIndex );
-        // printf(
-		// 	"Next inode: %d\n"
-		// 	"Protect: %d\n"
-		// 	"Nlink: %d\n"
-		// 	"Size: %d\n"
-		// 	"Uid: %d\n"
-		// 	"Gid: %d\n"
-		// 	"Ctime: %d\n"
-		// 	"Mtime: %d\n"
-		// 	"Atime: %d\n"
-		// 	"Dblocks: [%d, %d, %d, %d, %d, %d, %d, %d, %d, %d]\n"
-		// 	"Iblocks: [%d, %d, %d, %d]\n"
-		// 	"I2block: %d\n"
-		// 	"I3block: %d\n",
-		// 	node->next_inode,
-		// 	node->protect,
-		// 	node->nlink,
-		// 	node->size,
-		// 	node->uid,
-		// 	node->gid,
-		// 	node->ctime,
-		// 	node->mtime,
-		// 	node->atime,
-		// 	node->dblocks[0], node->dblocks[1], node->dblocks[2], node->dblocks[3], node->dblocks[4], node->dblocks[5], node->dblocks[6], node->dblocks[7], node->dblocks[8], node->dblocks[9],
-		// 	node->iblocks[0], node->iblocks[1], node->iblocks[2], node->iblocks[3],
-		// 	node->i2block,
-		// 	node->i3block
-	    // );
         newNode->protect = node->protect;
         newNode->nlink = node->nlink;
         newNode->size = node->size;
@@ -180,14 +150,12 @@ int main(int argc, char *argv[]) {
         newNode->next_inode = node->next_inode;
         //loop through the dblocks and check each of them 
         for(int i = 0; i < N_DBLOCKS; i++) {
-            // printf("current Dblock idx in our inode = %d\n", i);
             //if the dlbock points to -1 it is not in use so we can move on
             if(node->dblocks[i] == -1) {
                 newNode->dblocks[i] = -1;
             }
             else {
                 // if the dblock isn't -1 then we need to move it into the new disk image
-                // printf("block %d found at dlbock idx %d in our inode moving to block %d in new disk image\n", node->dblocks[i], i, freeMem);
                 int *newBlockPtr = (int *) (newDi->dataRegion + freeMem * newDi->sb->blocksize);
                 int *oldBlockPtr = (int *) (di.dataRegion + node->dblocks[i] * di.sb->blocksize);
                 memcpy(newBlockPtr, oldBlockPtr, newDi->sb->blocksize);
@@ -197,7 +165,6 @@ int main(int argc, char *argv[]) {
         }
         // loop through all of the Iblocks in the inode to see if they are in use
         for(int i = 0; i < N_IBLOCKS; i++) {
-            // printf("current Iblock idx in our inode = %d\n", i);
             if(node->iblocks[i] == -1) {
                 //if we hit free data copy the -1 over and move on
                 newNode->iblocks[i] = -1;
@@ -216,7 +183,6 @@ int main(int argc, char *argv[]) {
                     }
                     else {
                         //if the block isn't -1 then we need to move it into the new disk image
-                        // printf("block %d found in iblock %d idx %d in our inode. Moving to block %d in new disk image\n", iBlockPtr[j], i, j, freeMem);
                         //make pointers to each region in memory
                         //this is the new area that we need to fill up
                         int *newBlockPtr = (int *) (newDi->dataRegion + freeMem * newDi->sb->blocksize);
@@ -230,7 +196,6 @@ int main(int argc, char *argv[]) {
                     }
                 }
                 //update the indirect pointer to the front of all of the blocks it points to
-                // printf("iblock %d now points to block %d\n", i, pointerReference);
                 newNode->iblocks[i] = pointerReference;
             }
         }
@@ -258,7 +223,6 @@ int main(int argc, char *argv[]) {
                     int *newIBlockPtr = (int *) (newDi->dataRegion + pointerReference * newDi->sb->blocksize);
                     for(int j = 0; j < di.sb->blocksize / 4; j++) {
                         if(iBlockPtr[j] == -1) {
-                            // printf("free memory hit\n");
                             newIBlockPtr = (int*)-1;
                         }
                         else {
@@ -269,7 +233,6 @@ int main(int argc, char *argv[]) {
                             int *newBlockPtr = (int *) (newDi->dataRegion + freeMem * newDi->sb->blocksize);
                             //this is the data we are copying in
                             int *oldBlockPtr = (int *) (di.dataRegion + iBlockPtr[j] * di.sb->blocksize);
-                            // printf("block %d found in iblock2, iblock %d idx %d in our inode. Moving to block %d in new disk image val is %d\n", iBlockPtr[j], i, j, freeMem, *oldBlockPtr);
                             //copy the data
                             memcpy(newBlockPtr, oldBlockPtr, newDi->sb->blocksize);
                             //update the pointer in the inode in the iblock
@@ -278,11 +241,9 @@ int main(int argc, char *argv[]) {
                         }
                     }
                     //update the indirect pointer to the front of all of the blocks it points to
-                    // printf("iblock %d now points to block %d in i2block\n", i, pointerReference);
                     newi2BlockPtr[i] = pointerReference;
                 }
             }
-            // printf("i2block now points to block %d", i2PointerReference);
             newNode->i2block = i2PointerReference;
         }
         //check i3block to see if there is a pointer there
@@ -323,22 +284,18 @@ int main(int argc, char *argv[]) {
                                     int *newBlockPtr = (int *) (newDi->dataRegion + freeMem * newDi->sb->blocksize);
                                     //this is the data we are copying in
                                     int *oldBlockPtr = (int *) (di.dataRegion + iBlockPtr[k] * di.sb->blocksize);
-                                    // printf("block %d found in iblock3, in iblock2 %d, iblock %d idx %d in our inode. Moving to block %d in new disk image val is %d\n", iBlockPtr[k], i, j, k, freeMem, *oldBlockPtr);
                                     memcpy(newBlockPtr, oldBlockPtr, newDi->sb->blocksize);
                                     newIBlockPtr[k] = freeMem;
                                     freeMem++;
                                 }
                             }
-                            // printf("iblock %d now points to block %d in i2block %d in iblock3\n", j , pointerReference, i);
                             newi2BlockPtr[j] = pointerReference;
                         }
                     }
-                    // printf("i2block %d now points to block %d in i3block", i, i2PointerReference);
                     newi3BlockPtr[i] = i2PointerReference;
                 }
             }
             newNode->i3block = i3PointerReference;
-            // printf("i3block now points to block %d", i3PointerReference);
         }
         newNode++;
         inodeIndex++;
@@ -350,78 +307,25 @@ int main(int argc, char *argv[]) {
     //the index of the current inode we are using
     inodeIndex = 0;
     //this just prints out the data after it is defragged to check if it is correct
-    //  printf("Start of Defragmented data \n\n\n\n\n");
      while ( ( (inodeIndex + 1) * sizeof(inode) ) < inodeRegionSize )
     {
         //prints out inode information for debugging
-    	// printf("\nInode %d -\n", inodeIndex );
-        // printf(
-		// 	"Next inode: %d\n"
-		// 	"Protect: %d\n"
-		// 	"Nlink: %d\n"
-		// 	"Size: %d\n"
-		// 	"Uid: %d\n"
-		// 	"Gid: %d\n"
-		// 	"Ctime: %d\n"
-		// 	"Mtime: %d\n"
-		// 	"Atime: %d\n"
-		// 	"Dblocks: [%d, %d, %d, %d, %d, %d, %d, %d, %d, %d]\n"
-		// 	"Iblocks: [%d, %d, %d, %d]\n"
-		// 	"I2block: %d\n"
-		// 	"I3block: %d\n",
-		// 	newNode->next_inode,
-		// 	newNode->protect,
-		// 	newNode->nlink,
-		// 	newNode->size,
-		// 	newNode->uid,
-		// 	newNode->gid,
-		// 	newNode->ctime,
-		// 	newNode->mtime,
-		// 	newNode->atime,
-		// 	newNode->dblocks[0], newNode->dblocks[1], newNode->dblocks[2], newNode->dblocks[3], newNode->dblocks[4], newNode->dblocks[5], newNode->dblocks[6], newNode->dblocks[7], newNode->dblocks[8], newNode->dblocks[9],
-		// 	newNode->iblocks[0], newNode->iblocks[1], newNode->iblocks[2], newNode->iblocks[3],
-		// 	newNode->i2block,
-		// 	newNode->i3block
-	    // );
         inodeIndex++;
         newNode++;
     }
-    //printf("num blocks %d\n", numBlocks);
-    //creates the free memory linked list at the start of the freeMem pointer
+    // Chain the remaining blocks into the free list: each free block stores the index
+    // of the next one, and the last stores -1. One zeroed buffer is reused for all of them.
+    int *freeBlock = (int *)calloc(1, di.sb->blocksize);
     for( int blockIndex = freeMem; blockIndex < numBlocks - 1; blockIndex++ )
     {
-        int *newVal = (int *)calloc(1, di.sb->blocksize);
-        *newVal = blockIndex + 1;
-        int *newBlockPtr = (int *)(newDi->dataRegion + blockIndex * newDi->sb->blocksize);
-        memcpy(newBlockPtr, newVal, newDi->sb->blocksize);
+        *freeBlock = blockIndex + 1;
+        memcpy(newDi->dataRegion + blockIndex * newDi->sb->blocksize, freeBlock, newDi->sb->blocksize);
     }
-    //updates the last val at the end of free mem to -1
-    int *newVal = (int *)calloc(1, di.sb->blocksize);
-    *newVal = -1;
-    int *newBlockPtr = (int *) (newDi->dataRegion + (numBlocks - 1) * newDi->sb->blocksize);
-    memcpy(newBlockPtr, newVal, newDi->sb->blocksize);
-    // printf("%d\n", freeMem);
+    *freeBlock = -1;
+    memcpy(newDi->dataRegion + (numBlocks - 1) * newDi->sb->blocksize, freeBlock, newDi->sb->blocksize);
+    free(freeBlock);
     newDi->freeBlockIndex = freeMem;
     newDi->sb->free_block = freeMem;
-	// printf(
-	// 		"Superblock-\n"
-	// 		"Blocksize: %d\n"
-	// 		"Data offset: %d\n"
-	// 		"Free block: %d\n"
-	// 		"Free inode: %d\n"
-	// 		"Inode offset: %d\n"
-	// 		"Swap offset: %d\n",
-	// 		sb->blocksize,
-	// 		sb->data_offset,
-	// 		sb->free_block,
-	// 		sb->free_inode,
-	// 		sb->inode_offset,
-	// 		sb->swap_offset);
-    for( int blockIndex = 0; blockIndex < 100; blockIndex++ )
-    {
-        // printf("Data Block %d - Value: ", blockIndex );
-        // printf("%d\n", *block );
-    }
 
     //opening a file for writing
     o = fopen("disk_defrag", "wb");
@@ -432,14 +336,21 @@ int main(int argc, char *argv[]) {
     
     fwrite(di.buffer, 512, 1, o);
     fwrite(newDi->sb, 512, 1, o);
-    // printf("data block 0 = %d\n", *block);
     int dataOffset = (REGION_OFFSET + di.sb->data_offset * di.sb->blocksize) - ((numInodes * sizeof(inode)) + REGION_OFFSET);
-    // printf("dataOffset %d\n", dataOffset);
-    fwrite(newDi->inodeRegion, numInodes * sizeof(inode) + dataOffset, 1, o);
-    // printf("inode starts writing at %d\n", 512 + 512);
+    // Write the inodes, then zero padding up to the data region (the inode buffer itself is only numInodes long).
+    fwrite(newDi->inodeRegion, sizeof(inode), numInodes, o);
+    char *padding = (char *)calloc(1, dataOffset);
+    fwrite(padding, 1, dataOffset, o);
+    free(padding);
     fwrite(newDi->dataRegion, newDi->sb->blocksize, numBlocks, o);
-    // printf("data starts writing at %d\n", (numInodes * newDi->sb->blocksize) + 512 + 512);
-    // printf("data offset %d, inode offset %d\n", newDi->sb->data_offset, newDi->sb->inode_offset);
+    // Keep the swap region (everything after the data region) so the image keeps its full size.
+    long swapStart = REGION_OFFSET + (long)di.sb->swap_offset * di.sb->blocksize;
+    if (swapStart < fileStat.st_size) {
+        fwrite(di.buffer + swapStart, 1, fileStat.st_size - swapStart, o);
+    }
+    free(newDi->inodeRegion);
+    free(newDi->dataRegion);
+    free(newDi);
     free(di.buffer);
     fclose(o);
     exit(0);

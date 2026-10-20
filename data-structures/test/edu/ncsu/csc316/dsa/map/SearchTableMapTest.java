@@ -124,8 +124,6 @@ public class SearchTableMapTest {
         
         assertEquals(studentMap.size(), 5);
         
-        //studentMap.toString();
-        //assertEquals("", studentMap.toString());
         
         int key5 = studentMap.get(s5);
         assertEquals(key5, 5);

@@ -72,13 +72,6 @@ public class TestPlanReader {
 		} catch(FileNotFoundException e) {
 			throw new IllegalArgumentException("Unable to load file.");
 		}
-//		System.out.println(plans.get(0).getTestPlanName());
-//		System.out.println(plans.get(0).getTestCasesAsArray()[0][0]);
-//		System.out.println(plans.get(0).getTestCasesAsArray()[0][1]);
-//		System.out.println(plans.get(0).getTestCasesAsArray()[0][2]);
-//		System.out.println(plans.get(0).getTestCase(0).getTestDescription());
-//		System.out.println(plans.get(0).getTestCase(0).getExpectedResults());
-//		System.out.println(plans.get(0).getTestCase(0).getActualResultsLog());
 		return plans;
 	}
 	
@@ -92,7 +85,6 @@ public class TestPlanReader {
 	 * @return plan TestPlan object to be returned after parsing a given String.
 	 */
 	private static TestPlan processTestPlan(String testPlanString) {
-		//System.out.println(testPlanString);
 		try {
 			Scanner planReader = new Scanner(testPlanString);
 			String planLine = planReader.nextLine();
@@ -185,18 +177,15 @@ public class TestPlanReader {
 					else {
 						return null;
 					}
-//					System.out.println(result.substring(6).trim());
 					testCase.addTestResult(testResultsStatus, result.substring(6).trim());
 				}
 				
 				return testCase;
 			}
 			catch(Exception e) {
-				//System.out.print(e.getClass());
 			}
 		}
 		catch(Exception e) {
-			//System.out.print(e.getClass());
 			return null;
 		}
 		return null;

@@ -112,7 +112,6 @@ public class BacklogManager {
 //	 */
 //	private void isDuplicateProduct(String product) {
 //		
-//	}
 	
 	/**
 	 * Builds a 2D array of tasks to be returned.

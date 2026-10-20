@@ -3,7 +3,6 @@ package edu.ncsu.csc216.pack_scheduler.course;
 
 import edu.ncsu.csc216.pack_scheduler.course.roll.CourseRoll;
 
-//import java.util.regex.Pattern;
 
 import edu.ncsu.csc216.pack_scheduler.course.validator.CourseNameValidator;
 import edu.ncsu.csc216.pack_scheduler.course.validator.InvalidTransitionException;
@@ -22,7 +21,6 @@ public class Course extends Activity implements Comparable<Course> {
 //     * The requirements do not define what a "letter" is, but since all real NCSU course names and all valid tests
 //     * consist of only uppercase ASCII letters, this program will only accept uppercase ASCII letters.
 //     */
-//    private static final Pattern COURSE_NAME_PATTERN = Pattern.compile("[A-Z]{1,4} \\d{3}");
     /** The number of characters in a course section */
     private static final int SECTION_LENGTH = 3;
     /** The minimum number of credit hours */

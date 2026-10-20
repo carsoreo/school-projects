@@ -103,9 +103,7 @@ public class CourseCatalogTest {
 	@Test
 	public void testAddCourseToCatalog() {
 		CourseCatalog cc = new CourseCatalog();
-		//cc.loadCoursesFromFile(validTestFile);
 
-		//Course c = new Course("CSC 216", "Software Fundamentals", "001", 3, "sheckman", "MW", 1200, 1300);
 		assertTrue(cc.addCourseToCatalog("CSC216", "Software Fundamentals", "001", 3, "sheckman", 10, "MW", 1200, 1300));
 
 		// Duplicate

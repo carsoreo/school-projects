@@ -37,7 +37,6 @@ public class ProductsReader {
 			fileReader.useDelimiter("\\r?\\n?[#] ");
 			while(fileReader.hasNext()) {
 				String productBody = fileReader.next();
-				//System.out.print(productBody);
 				Product product = processProduct(productBody);
 				if (product == null) {
 					break;
@@ -63,7 +62,6 @@ public class ProductsReader {
 		try {
 			Scanner taskReader = new Scanner(productText);
 			String productLine = taskReader.nextLine();
-			//System.out.println(productLine);
 			if (productLine.contains("*")) {
 				taskReader.close();
 				return null;

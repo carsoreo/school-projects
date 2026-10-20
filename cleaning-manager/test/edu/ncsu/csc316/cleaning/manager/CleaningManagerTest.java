@@ -3,6 +3,9 @@ package edu.ncsu.csc316.cleaning.manager;
 import static org.junit.Assert.*;
 
 
+import java.io.File;
+
+import org.junit.Assume;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -56,17 +59,21 @@ public class CleaningManagerTest {
 	}
 	
 	/**
-	 * Tests the getEventsByRoom method
+	 * Performance check: getEventsByRoom on the largest generated input (about 4 million
+	 * cleaning events) should finish within a minute (file loading is not timed). The input is too large to commit,
+	 * so the test is skipped when the generated files are not present.
 	 */
 	@Test
-	public void testGetEventsByRoom2() throws Exception{
+	public void testGetEventsByRoomLargeInput() throws Exception {
+		File rooms = new File("input/rooms_22.csv");
+		File events = new File("input/cleaningEvents_22.csv");
+		Assume.assumeTrue("Large generated input not present", rooms.exists() && events.exists());
+		CleaningManager largeManager = new CleaningManager(rooms.getPath(), events.getPath());
+		// Time only the grouping step; loading the files is the reader's job.
 		long startTime = System.currentTimeMillis();
-		CleaningManager manager2 = new CleaningManager("input/rooms_22.csv", "input/cleaningEvents_22.csv");
-		manager2.getEventsByRoom();
-		long endTime = System.currentTimeMillis();
-		long finalTime = endTime - startTime;
-		//Easy way to check final time value
-		assertEquals(finalTime, 0);
+		assertFalse(largeManager.getEventsByRoom().isEmpty());
+		long elapsed = System.currentTimeMillis() - startTime;
+		assertTrue("Took " + elapsed + " ms", elapsed < 60_000);
 	}
 		
 

@@ -225,7 +225,6 @@ public class LinkedBinaryTree<E> extends AbstractBinaryTree<E> {
         	BinaryTreeNode<E> leftNode = validate(left(node));
         	leftNode.setParent(node.getParent());
         	if (node.getParent() == null) {
-        		//leftNode.setLeft(null);
         		leftNode.setParent(null);
         		root = leftNode;
         	}
@@ -243,7 +242,6 @@ public class LinkedBinaryTree<E> extends AbstractBinaryTree<E> {
         	BinaryTreeNode<E> rightNode = validate(right(node));
         	rightNode.setParent(node.getParent());
         	if (node.getParent() == null) {
-        		//rightNode.setRight(null);
         		rightNode.setParent(null);
         		root = rightNode;
         	}

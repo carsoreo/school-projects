@@ -146,7 +146,7 @@ void printDiskImage( FILE *out, diskImage *di )
 int main(int argc, char *argv[]) {
     //make sure number of args passed is correct
     if(argc != 2) {
-        perror("Invalid number of arguments");
+        fprintf(stderr, "usage: %s <disk image>\n", argv[0]);
         exit(1);
     }    
     
@@ -166,7 +166,7 @@ int main(int argc, char *argv[]) {
         exit(1);
     }
     //open input file
-    f = fopen(argv[1], "r");
+    f = fopen(argv[1], "rb");
     if(f == NULL) {
         perror("fopen error");
         exit(1);

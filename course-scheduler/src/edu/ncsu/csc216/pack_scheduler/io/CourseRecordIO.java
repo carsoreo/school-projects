@@ -1,7 +1,6 @@
 package edu.ncsu.csc216.pack_scheduler.io;
 
 import edu.ncsu.csc216.pack_scheduler.course.Course;
-//import edu.ncsu.csc216.pack_scheduler.directory.FacultyDirectory;
 import edu.ncsu.csc216.pack_scheduler.manager.RegistrationManager;
 import edu.ncsu.csc216.pack_scheduler.user.Faculty;
 import edu.ncsu.csc217.collections.list.SortedList;

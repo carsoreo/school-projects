@@ -27,7 +27,6 @@ class CourseNameValidatorFSMTest {
 			assertTrue(cn.isValid("HE123E"));
 			assertTrue(cn.isValid("H234"));
 		} catch (InvalidTransitionException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}

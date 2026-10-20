@@ -22,3 +22,18 @@ These were class projects, so not every line here is mine:
 - **Teammates.** Team projects include code by my classmates, credited in each file's `@author` tags.
 
 My senior design project, a full-stack data management app built with a sponsor, isn't included because the sponsor owns the code.
+
+## Running the tests
+
+Every project has a test suite, and all of them pass:
+
+| Project | Tests | How to run |
+|---|---|---|
+| course-scheduler | 213 | JUnit 4/5; compile `src` and `test` with the jar in `lib/` and run from the project folder |
+| product-backlog | 35 | JUnit 5, run from the project folder |
+| test-plan-tracker | 52 | JUnit 5, run from the project folder |
+| data-structures | 215 | JUnit 4, run from the project folder |
+| cleaning-manager | 6 (+1 large-input performance test) | JUnit 4 with the jars in `lib/`; the performance test skips itself unless the large generated inputs are in `input/` |
+| coffee-maker | 44 | `./mvnw test` (Java 11+). Tests use an in-memory H2 database; the app itself uses MySQL (copy `application.yml.template` to `application.yml`) |
+| disk-defrag | 4 sample disks | `./run_tests.sh` on Linux or WSL: defragments each sample disk and verifies every file is intact, contiguous, and the swap region is preserved |
+| shellcode-exercises | — | Linux x86-64 only: `gcc -z execstack -fno-stack-protector -o shelltest shelltest.c` |

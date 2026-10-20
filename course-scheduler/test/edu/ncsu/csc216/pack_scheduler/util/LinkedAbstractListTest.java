@@ -28,7 +28,6 @@ class LinkedAbstractListTest {
 		alist.add(0, "test3");
 		assertEquals(3, alist.size());
 		String actual = alist.get(0);
-		//System.out.println(alist);
 		assertEquals(actual, "test3");
 		assertEquals(alist.get(1), "test");
 		assertEquals(alist.get(2), "test2");

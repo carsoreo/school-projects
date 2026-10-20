@@ -88,7 +88,6 @@ public class Student extends User implements Comparable<Student> {
 //			return false;
 //		if (getClass() != obj.getClass())
 //			return false;
-//		Student other = (Student) obj;
 //		if (email == null) {
 //			if (other.email != null)
 //				return false;
@@ -117,7 +116,6 @@ public class Student extends User implements Comparable<Student> {
 //		} else if (!password.equals(other.password))
 //			return false;
 //		return true;
-//	}
 //
 //	/**
 //	 * Generates a hash code from this student's data.
@@ -125,16 +123,7 @@ public class Student extends User implements Comparable<Student> {
 //	 */
 //	@Override
 //	public int hashCode() {
-//		final int prime = 31;
-//		int result = 1;
-//		result = prime * result + ((email == null) ? 0 : email.hashCode());
-//		result = prime * result + ((firstName == null) ? 0 : firstName.hashCode());
-//		result = prime * result + ((id == null) ? 0 : id.hashCode());
-//		result = prime * result + ((lastName == null) ? 0 : lastName.hashCode());
-//		result = prime * result + maxCredits;
-//		result = prime * result + ((password == null) ? 0 : password.hashCode());
 //		return result;
-//	}
 
 	/**
 	 * Converts this student to the student record format by listing each field separated by commas.

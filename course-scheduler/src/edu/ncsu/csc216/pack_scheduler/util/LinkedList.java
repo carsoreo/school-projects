@@ -165,7 +165,6 @@ public class LinkedList<E> extends AbstractSequentialList<E> {
 		}
 		@Override
 		public int previousIndex() {
-			// TODO Auto-generated method stub
 			return previousIndex;
 		}
 		@Override

@@ -83,7 +83,6 @@ public class InventoryTest {
     public void testAddInventory1 () {
         Inventory ivt = inventoryService.getInventory();
 
-        // ivt.addIngredients( 5, 3, 7, 2 );
 
         final Ingredient ingCoffee = new Ingredient( "Coffee", 5 );
         final Ingredient ingMilk = new Ingredient( "Milk", 3 );
@@ -118,7 +117,6 @@ public class InventoryTest {
         final Inventory ivt = inventoryService.getInventory();
 
         try {
-            // ivt.addIngredients( -5, 3, 7, 2 );
             final Ingredient ingCoffee = new Ingredient( "Coffee", -5 );
             final Ingredient ingMilk = new Ingredient( "Milk", 3 );
             final Ingredient ingSugar = new Ingredient( "Sugar", 7 );

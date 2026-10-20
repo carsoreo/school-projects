@@ -284,7 +284,6 @@ public class PackSchedulerGUI {
 			rPanel.add(pnlCatalog, COURSE_CATALOG_PANEL);
 			rCardLayout.show(rPanel, STUDENT_DIRECTORY_PANEL);
 			
-//			scrollRPanel = new JScrollPane(rPanel, JScrollPane.VERTICAL_SCROLLBAR_ALWAYS, JScrollPane.HORIZONTAL_SCROLLBAR_AS_NEEDED);
 			
 			GridBagConstraints c = new GridBagConstraints();
 			c.gridx = 0;

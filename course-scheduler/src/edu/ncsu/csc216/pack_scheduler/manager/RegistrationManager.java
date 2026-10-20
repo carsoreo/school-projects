@@ -209,7 +209,6 @@ public class RegistrationManager {
 				}
 			}
 			if(!inDirectory) {
-				//throw new IllegalArgumentException("User doesn't exist.");
 				return false;
 			}
 			try {
@@ -245,7 +244,6 @@ public class RegistrationManager {
 				}
 			}
 			if(!inDirectory) {
-				//throw new IllegalArgumentException("User doesn't exist.");
 				return false;
 			}
 			try {

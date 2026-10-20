@@ -215,8 +215,6 @@ public class TestPlanManager {
 			throw new IllegalArgumentException("The Failing Tests list may not be deleted.");
 		}
 		else {
-			//int size = testPlans.size();
-			//int idx = 0;
 			//Find index of test plan to be removed
 			for(int i = 0; i < testPlans.size(); i++) {
 				if(testPlans.get(i).getTestPlanName().equals(currentTestPlan.getTestPlanName())) {

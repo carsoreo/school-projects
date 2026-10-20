@@ -46,10 +46,6 @@ public class TestDatabaseInteraction {
 
         r.setName( "Mocha" );
         r.setPrice( 350 );
-        // r.setChocolate( 1 );
-        // r.setCoffee( 2 );
-        // r.setMilk( 1 );
-        // r.setSugar( 1 );
 
         recipeService.save( r );
 
@@ -60,20 +56,14 @@ public class TestDatabaseInteraction {
         final Recipe dbRecipe = dbRecipes.get( 0 );
 
         assertEquals( r.getName(), dbRecipe.getName() );
-        // assertEquals( r.getChocolate(), dbRecipe.getChocolate() );
-        // assertEquals( r.getCoffee(), dbRecipe.getCoffee() );
-        // assertEquals( r.getMilk(), dbRecipe.getMilk() );
-        // assertEquals( r.getSugar(), dbRecipe.getSugar() );
         assertEquals( r.getPrice(), dbRecipe.getPrice() );
 
         assertTrue( r.equals( recipeService.findByName( r.getName() ) ) );
 
         dbRecipe.setPrice( 15 );
-        // dbRecipe.setSugar( 12 );
         recipeService.save( dbRecipe );
 
         // Extra test cases
-        // assertEquals( (Integer) 12, dbRecipe.getSugar() );
         assertEquals( (Integer) 15, dbRecipe.getPrice() );
 
         assertEquals( 1, recipeService.count() );
@@ -91,11 +81,6 @@ public class TestDatabaseInteraction {
     public void testDeleteRecipeNitin_1 () {
         final Recipe r = new Recipe();
         r.setName( "Taro Milk Tea" );
-        // r.setMilk( 2 );
-        // r.setChocolate( 10 );
-        // r.setPrice( 500 );
-        // r.setCoffee( 1 );
-        // r.setSugar( 5 );
         recipeService.save( r );
         final List<Recipe> dbRecipes = recipeService.findAll();
         // making sure the recipe exists in the RecipeService object

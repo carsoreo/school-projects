@@ -8,7 +8,6 @@ import java.util.Objects;
 import edu.ncsu.csc216.stp.model.tests.TestCase;
 import edu.ncsu.csc216.stp.model.util.ISwapList;
 import edu.ncsu.csc216.stp.model.util.SwapList;
-//import edu.ncsu.csc216.stp.model.util.SwapList;
 
 /**
  * Abstract class which has a state of a list of testCases using the custom

@@ -203,7 +203,6 @@ public class StudentDirectoryTest {
 		sd.addStudent("Zahir", "King", "zking", "orci.Donec@ametmassaQuisque.com", "pw", "pw", 15);
 		String[][] s1 = sd.getStudentDirectory();
 		String s1Name = s1[0][0];
-		//String[][] s2 = sd.getStudentById("zking").getStudentDirectory();
 		assertEquals(s1Name, sd.getStudentById("zking").getFirstName());
 	}
 

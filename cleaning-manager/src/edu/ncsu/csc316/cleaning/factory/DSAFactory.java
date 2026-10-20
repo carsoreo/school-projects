@@ -27,11 +27,16 @@ public class DSAFactory {
      *            - the key type
      * @param <V>
      *            - the value type
-     * @param comparator to compare keys in list
-     * @return a data structure that implements a map
+     * @param comparator to order keys by; when null, key order does not matter and
+     *            a hash map is returned for fast lookups
+     * @return an ordered map (red-black tree) when a comparator is given,
+     *         otherwise a hash map
      */
     public static <K extends Comparable<K>, V> Map<K, V> getMap(Comparator<K> comparator) {
-        return getLinearProbingHashMap();
+        if (comparator == null) {
+            return getLinearProbingHashMap();
+        }
+        return getRedBlackTreeMap(comparator);
     }
 
     /**

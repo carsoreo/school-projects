@@ -71,10 +71,6 @@ public class APITest {
         /* Figure out if the recipe we want is present */
         if ( !recipe.contains( "Mocha" ) ) {
             final Recipe r = new Recipe();
-            // r.setChocolate( 5 );
-            // r.setCoffee( 3 );
-            // r.setMilk( 4 );
-            // r.setSugar( 8 );
             final Ingredient ingCoffee = new Ingredient( "Coffee", 5 );
             final Ingredient ingMilk = new Ingredient( "Milk", 3 );
             final Ingredient ingSugar = new Ingredient( "Sugar", 4 );

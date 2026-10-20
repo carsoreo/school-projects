@@ -128,7 +128,6 @@ public class StudentRegistrationPanel  extends JPanel implements ActionListener 
 		btnReset = new JButton("Reset Schedule");
 		btnReset.addActionListener(this);
 		btnDisplay = new JButton("Display Final Schedule");
-//		btnDisplay.addActionListener(this);
 		btnDisplay.setEnabled(false);
 		lblScheduleTitle = new JLabel("Schedule Title: ");
 		txtScheduleTitle = new JTextField("", 20); 

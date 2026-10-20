@@ -45,7 +45,6 @@ public class StudentReaderTest {
 		assertEquals("1.1", Double.toString(contents[0].getGpa()));
 		assertEquals(10, contents[0].getCreditHours());
 		
-		//assertThrows(IllegalArgumentException.class, () -> StudentReader.readInputAsArray("this path doesnt exist"));
 		
 	}
 }

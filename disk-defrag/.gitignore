@@ -1,2 +1,6 @@
 defrag
 image_reader
+*.exe
+# Program output
+disk_defrag
+diskdefragoutput.txt
