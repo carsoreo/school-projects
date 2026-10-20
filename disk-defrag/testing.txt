@@ -1,0 +1,3086 @@
+Inode 0 -
+Next inode: 0
+Protect: 0
+Nlink: 1
+Size: 10758
+Uid: 18390
+Gid: 9921
+Ctime: 817604475
+Mtime: 1151884739
+Atime: 1406662470
+Dblocks: [6034, 5089, 565, 9321, 9741, 1483, 4437, 8791, 2058, 5932]
+Iblocks: [2174, -1, -1, -1]
+I2block: -1
+I3block: -1
+Inode in use
+current Dblock idx in our inode = 0
+dblock 6034 out of order
+swapping
+current Dblock idx in our inode = 1
+dblock 5089 out of order
+swapping
+current Dblock idx in our inode = 2
+dblock 565 out of order
+swapping
+current Dblock idx in our inode = 3
+dblock 9321 out of order
+swapping
+current Dblock idx in our inode = 4
+dblock 9741 out of order
+swapping
+current Dblock idx in our inode = 5
+dblock 1483 out of order
+swapping
+current Dblock idx in our inode = 6
+dblock 4437 out of order
+swapping
+current Dblock idx in our inode = 7
+dblock 8791 out of order
+swapping
+current Dblock idx in our inode = 8
+dblock 2058 out of order
+swapping
+current Dblock idx in our inode = 9
+dblock 5932 out of order
+swapping
+indirect index 0 and value 4736
+indirect index 1 and value 4926
+indirect index 2 and value 5462
+indirect index 3 and value 7463
+indirect index 4 and value 4662
+indirect index 5 and value 6561
+indirect index 6 and value 4463
+indirect index 7 and value 1144
+indirect index 8 and value 1201
+indirect index 9 and value 1239
+indirect index 10 and value 9013
+indirect index 11 and value 1329
+
+Inode 1 -
+Next inode: 0
+Protect: 0
+Nlink: 1
+Size: 21851
+Uid: 18390
+Gid: 9921
+Ctime: 1366835985
+Mtime: 217377395
+Atime: 1107718661
+Dblocks: [4884, 2073, 2491, 9116, 717, 866, 7593, 6799, 4609, 7193]
+Iblocks: [4883, -1, -1, -1]
+I2block: -1
+I3block: -1
+Inode in use
+current Dblock idx in our inode = 0
+dblock 4884 out of order
+swapping
+current Dblock idx in our inode = 1
+dblock 2073 out of order
+swapping
+current Dblock idx in our inode = 2
+dblock 2491 out of order
+swapping
+current Dblock idx in our inode = 3
+dblock 9116 out of order
+swapping
+current Dblock idx in our inode = 4
+dblock 717 out of order
+swapping
+current Dblock idx in our inode = 5
+dblock 866 out of order
+swapping
+current Dblock idx in our inode = 6
+dblock 7593 out of order
+swapping
+current Dblock idx in our inode = 7
+dblock 6799 out of order
+swapping
+current Dblock idx in our inode = 8
+dblock 4609 out of order
+swapping
+current Dblock idx in our inode = 9
+dblock 7193 out of order
+swapping
+indirect index 0 and value 1312
+indirect index 1 and value 7602
+indirect index 2 and value 7045
+indirect index 3 and value 3716
+indirect index 4 and value 6046
+indirect index 5 and value 6506
+indirect index 6 and value 1906
+indirect index 7 and value 7418
+indirect index 8 and value 6190
+indirect index 9 and value 1251
+indirect index 10 and value 5486
+indirect index 11 and value 7083
+indirect index 12 and value 6512
+indirect index 13 and value 2451
+indirect index 14 and value 4667
+indirect index 15 and value 1432
+indirect index 16 and value 4652
+indirect index 17 and value 5384
+indirect index 18 and value 2298
+indirect index 19 and value 2841
+indirect index 20 and value 575
+indirect index 21 and value 1494
+indirect index 22 and value 7451
+indirect index 23 and value 7768
+indirect index 24 and value 8764
+indirect index 25 and value 5235
+indirect index 26 and value 3288
+indirect index 27 and value 8951
+indirect index 28 and value 9233
+indirect index 29 and value 6617
+indirect index 30 and value 4776
+indirect index 31 and value 6911
+indirect index 32 and value 7869
+
+Inode 2 -
+Next inode: 0
+Protect: 0
+Nlink: 1
+Size: 42284
+Uid: 18390
+Gid: 9921
+Ctime: 1210328772
+Mtime: 187833613
+Atime: 1701944601
+Dblocks: [3736, 2245, 7845, 5696, 740, 1362, 4701, 10113, 8086, 4121]
+Iblocks: [1374, -1, -1, -1]
+I2block: -1
+I3block: -1
+Inode in use
+current Dblock idx in our inode = 0
+dblock 3736 out of order
+swapping
+current Dblock idx in our inode = 1
+dblock 2245 out of order
+swapping
+current Dblock idx in our inode = 2
+dblock 7845 out of order
+swapping
+current Dblock idx in our inode = 3
+dblock 5696 out of order
+swapping
+current Dblock idx in our inode = 4
+dblock 740 out of order
+swapping
+current Dblock idx in our inode = 5
+dblock 1362 out of order
+swapping
+current Dblock idx in our inode = 6
+dblock 4701 out of order
+swapping
+current Dblock idx in our inode = 7
+dblock 10113 out of order
+swapping
+current Dblock idx in our inode = 8
+dblock 8086 out of order
+swapping
+current Dblock idx in our inode = 9
+dblock 4121 out of order
+swapping
+indirect index 0 and value 7560
+indirect index 1 and value 9441
+indirect index 2 and value 9796
+indirect index 3 and value 431
+indirect index 4 and value 1179
+indirect index 5 and value 93
+indirect index 6 and value 4015
+indirect index 7 and value 8007
+indirect index 8 and value 9965
+indirect index 9 and value 10004
+indirect index 10 and value 9371
+indirect index 11 and value 5542
+indirect index 12 and value 755
+indirect index 13 and value 7268
+indirect index 14 and value 9279
+indirect index 15 and value 3000
+indirect index 16 and value 4977
+indirect index 17 and value 4840
+indirect index 18 and value 3741
+indirect index 19 and value 6340
+indirect index 20 and value 4298
+indirect index 21 and value 8443
+indirect index 22 and value 9000
+indirect index 23 and value 6393
+indirect index 24 and value 303
+indirect index 25 and value 238
+indirect index 26 and value 8241
+indirect index 27 and value 7864
+indirect index 28 and value 5550
+indirect index 29 and value 10111
+indirect index 30 and value 6730
+indirect index 31 and value 898
+indirect index 32 and value 2345
+indirect index 33 and value 609
+indirect index 34 and value 8905
+indirect index 35 and value 478
+indirect index 36 and value 8141
+indirect index 37 and value 7718
+indirect index 38 and value 1233
+indirect index 39 and value 6861
+indirect index 40 and value 4234
+indirect index 41 and value 115
+indirect index 42 and value 7975
+indirect index 43 and value 6455
+indirect index 44 and value 5864
+indirect index 45 and value 6282
+indirect index 46 and value 2638
+indirect index 47 and value 4728
+indirect index 48 and value 2942
+indirect index 49 and value 4967
+indirect index 50 and value 645
+indirect index 51 and value 670
+indirect index 52 and value 8547
+indirect index 53 and value 6221
+indirect index 54 and value 4487
+indirect index 55 and value 663
+indirect index 56 and value 2816
+indirect index 57 and value 5386
+indirect index 58 and value 3008
+indirect index 59 and value 3425
+indirect index 60 and value 4156
+indirect index 61 and value 5184
+indirect index 62 and value 2161
+indirect index 63 and value 5136
+indirect index 64 and value 7434
+indirect index 65 and value 9628
+indirect index 66 and value 9370
+indirect index 67 and value 7549
+indirect index 68 and value 1058
+indirect index 69 and value 6922
+indirect index 70 and value 3357
+indirect index 71 and value 6508
+indirect index 72 and value 1515
+
+Inode 3 -
+Next inode: -1
+Protect: 0
+Nlink: 0
+Size: 0
+Uid: 0
+Gid: 0
+Ctime: 0
+Mtime: 0
+Atime: 0
+Dblocks: [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+Iblocks: [-1, -1, -1, -1]
+I2block: -1
+I3block: -1
+
+Inode 4 -
+Next inode: 0
+Protect: 0
+Nlink: 1
+Size: 4002
+Uid: 18390
+Gid: 9921
+Ctime: 1622537713
+Mtime: 514099302
+Atime: 1611578054
+Dblocks: [6107, 9727, 3476, 6957, 8802, 7985, 7262, 2501, -1, -1]
+Iblocks: [-1, -1, -1, -1]
+I2block: -1
+I3block: -1
+Inode in use
+current Dblock idx in our inode = 0
+dblock 6107 out of order
+swapping
+current Dblock idx in our inode = 1
+dblock 9727 out of order
+swapping
+current Dblock idx in our inode = 2
+dblock 3476 out of order
+swapping
+current Dblock idx in our inode = 3
+dblock 6957 out of order
+swapping
+current Dblock idx in our inode = 4
+dblock 8802 out of order
+swapping
+current Dblock idx in our inode = 5
+dblock 7985 out of order
+swapping
+current Dblock idx in our inode = 6
+dblock 7262 out of order
+swapping
+current Dblock idx in our inode = 7
+dblock 2501 out of order
+swapping
+current Dblock idx in our inode = 8
+hit start of free dblocks
+
+Inode 5 -
+Next inode: 3
+Protect: 0
+Nlink: 0
+Size: 0
+Uid: 0
+Gid: 0
+Ctime: 0
+Mtime: 0
+Atime: 0
+Dblocks: [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+Iblocks: [-1, -1, -1, -1]
+I2block: -1
+I3block: -1
+
+Inode 6 -
+Next inode: 0
+Protect: 0
+Nlink: 1
+Size: 346
+Uid: 18390
+Gid: 9921
+Ctime: 1412809354
+Mtime: 519437484
+Atime: 316054371
+Dblocks: [6065, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+Iblocks: [-1, -1, -1, -1]
+I2block: -1
+I3block: -1
+Inode in use
+current Dblock idx in our inode = 0
+dblock 6065 out of order
+swapping
+current Dblock idx in our inode = 1
+hit start of free dblocks
+
+Inode 7 -
+Next inode: 0
+Protect: 0
+Nlink: 1
+Size: 20024
+Uid: 18390
+Gid: 9921
+Ctime: 217098642
+Mtime: 1837871857
+Atime: 1002022041
+Dblocks: [2891, 3833, 1375, 4071, 4565, 2574, 2474, 5682, 6201, 8733]
+Iblocks: [3985, -1, -1, -1]
+I2block: -1
+I3block: -1
+Inode in use
+current Dblock idx in our inode = 0
+dblock 2891 out of order
+swapping
+current Dblock idx in our inode = 1
+dblock 3833 out of order
+swapping
+current Dblock idx in our inode = 2
+dblock 1375 out of order
+swapping
+current Dblock idx in our inode = 3
+dblock 4071 out of order
+swapping
+current Dblock idx in our inode = 4
+dblock 4565 out of order
+swapping
+current Dblock idx in our inode = 5
+dblock 2574 out of order
+swapping
+current Dblock idx in our inode = 6
+dblock 2474 out of order
+swapping
+current Dblock idx in our inode = 7
+dblock 5682 out of order
+swapping
+current Dblock idx in our inode = 8
+dblock 6201 out of order
+swapping
+current Dblock idx in our inode = 9
+dblock 8733 out of order
+swapping
+indirect index 0 and value 8321
+indirect index 1 and value 7169
+indirect index 2 and value 1684
+indirect index 3 and value 6870
+indirect index 4 and value 6083
+indirect index 5 and value 7552
+indirect index 6 and value 776
+indirect index 7 and value 3984
+indirect index 8 and value 8879
+indirect index 9 and value 7581
+indirect index 10 and value 7467
+indirect index 11 and value 1116
+indirect index 12 and value 3550
+indirect index 13 and value 4294
+indirect index 14 and value 6591
+indirect index 15 and value 8115
+indirect index 16 and value 9532
+indirect index 17 and value 1871
+indirect index 18 and value 6756
+indirect index 19 and value 469
+indirect index 20 and value 3961
+indirect index 21 and value 4941
+indirect index 22 and value 7638
+indirect index 23 and value 8922
+indirect index 24 and value 7735
+indirect index 25 and value 4869
+indirect index 26 and value 6739
+indirect index 27 and value 8512
+indirect index 28 and value 8854
+indirect index 29 and value 340
+
+Inode 8 -
+Next inode: 5
+Protect: 0
+Nlink: 0
+Size: 0
+Uid: 0
+Gid: 0
+Ctime: 0
+Mtime: 0
+Atime: 0
+Dblocks: [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+Iblocks: [-1, -1, -1, -1]
+I2block: -1
+I3block: -1
+
+Inode 9 -
+Next inode: 0
+Protect: 0
+Nlink: 1
+Size: 16964
+Uid: 18390
+Gid: 9921
+Ctime: 1314982166
+Mtime: 1132409098
+Atime: 1190405849
+Dblocks: [9022, 8627, 2312, 4751, 3676, 6215, 6912, 6442, 1216, 4210]
+Iblocks: [5935, -1, -1, -1]
+I2block: -1
+I3block: -1
+Inode in use
+current Dblock idx in our inode = 0
+dblock 9022 out of order
+swapping
+current Dblock idx in our inode = 1
+dblock 8627 out of order
+swapping
+current Dblock idx in our inode = 2
+dblock 2312 out of order
+swapping
+current Dblock idx in our inode = 3
+dblock 4751 out of order
+swapping
+current Dblock idx in our inode = 4
+dblock 3676 out of order
+swapping
+current Dblock idx in our inode = 5
+dblock 6215 out of order
+swapping
+current Dblock idx in our inode = 6
+dblock 6912 out of order
+swapping
+current Dblock idx in our inode = 7
+dblock 6442 out of order
+swapping
+current Dblock idx in our inode = 8
+dblock 1216 out of order
+swapping
+current Dblock idx in our inode = 9
+dblock 4210 out of order
+swapping
+indirect index 0 and value 451
+indirect index 1 and value 6993
+indirect index 2 and value 7662
+indirect index 3 and value 3779
+indirect index 4 and value 883
+indirect index 5 and value 1866
+indirect index 6 and value 5295
+indirect index 7 and value 6781
+indirect index 8 and value 1180
+indirect index 9 and value 1641
+indirect index 10 and value 3189
+indirect index 11 and value 1165
+indirect index 12 and value 2499
+indirect index 13 and value 8145
+indirect index 14 and value 6259
+indirect index 15 and value 8439
+indirect index 16 and value 2119
+indirect index 17 and value 8571
+indirect index 18 and value 3054
+indirect index 19 and value 4651
+indirect index 20 and value 9966
+indirect index 21 and value 2102
+indirect index 22 and value 4041
+indirect index 23 and value 8037
+
+Inode 10 -
+Next inode: 0
+Protect: 0
+Nlink: 1
+Size: 229944
+Uid: 18390
+Gid: 9921
+Ctime: 914164915
+Mtime: 1688234421
+Atime: 211308652
+Dblocks: [2067, 2921, 1563, 1252, 2527, 7513, 2736, 6964, 6168, 4794]
+Iblocks: [2760, 9049, 759, 9829]
+I2block: -1
+I3block: -1
+Inode in use
+current Dblock idx in our inode = 0
+dblock 2067 out of order
+swapping
+current Dblock idx in our inode = 1
+dblock 2921 out of order
+swapping
+current Dblock idx in our inode = 2
+dblock 1563 out of order
+swapping
+current Dblock idx in our inode = 3
+dblock 1252 out of order
+swapping
+current Dblock idx in our inode = 4
+dblock 2527 out of order
+swapping
+current Dblock idx in our inode = 5
+dblock 7513 out of order
+swapping
+current Dblock idx in our inode = 6
+dblock 2736 out of order
+swapping
+current Dblock idx in our inode = 7
+dblock 6964 out of order
+swapping
+current Dblock idx in our inode = 8
+dblock 6168 out of order
+swapping
+current Dblock idx in our inode = 9
+dblock 4794 out of order
+swapping
+indirect index 0 and value 2140
+indirect index 1 and value 4486
+indirect index 2 and value 4934
+indirect index 3 and value 9413
+indirect index 4 and value 261
+indirect index 5 and value 4204
+indirect index 6 and value 4924
+indirect index 7 and value 629
+indirect index 8 and value 7483
+indirect index 9 and value 1831
+indirect index 10 and value 8723
+indirect index 11 and value 3160
+indirect index 12 and value 9261
+indirect index 13 and value 993
+indirect index 14 and value 4683
+indirect index 15 and value 1192
+indirect index 16 and value 3914
+indirect index 17 and value 6246
+indirect index 18 and value 2445
+indirect index 19 and value 6441
+indirect index 20 and value 3623
+indirect index 21 and value 5181
+indirect index 22 and value 3270
+indirect index 23 and value 9792
+indirect index 24 and value 9976
+indirect index 25 and value 6030
+indirect index 26 and value 1797
+indirect index 27 and value 829
+indirect index 28 and value 8674
+indirect index 29 and value 1091
+indirect index 30 and value 2742
+indirect index 31 and value 6624
+indirect index 32 and value 6015
+indirect index 33 and value 3972
+indirect index 34 and value 1947
+indirect index 35 and value 5204
+indirect index 36 and value 8365
+indirect index 37 and value 6245
+indirect index 38 and value 6019
+indirect index 39 and value 9358
+indirect index 40 and value 792
+indirect index 41 and value 7212
+indirect index 42 and value 3137
+indirect index 43 and value 9657
+indirect index 44 and value 9578
+indirect index 45 and value 526
+indirect index 46 and value 4703
+indirect index 47 and value 2712
+indirect index 48 and value 4544
+indirect index 49 and value 8743
+indirect index 50 and value 1979
+indirect index 51 and value 8871
+indirect index 52 and value 9572
+indirect index 53 and value 517
+indirect index 54 and value 2340
+indirect index 55 and value 527
+indirect index 56 and value 3260
+indirect index 57 and value 8965
+indirect index 58 and value 6542
+indirect index 59 and value 6633
+indirect index 60 and value 2801
+indirect index 61 and value 8490
+indirect index 62 and value 1701
+indirect index 63 and value 5361
+indirect index 64 and value 5248
+indirect index 65 and value 10066
+indirect index 66 and value 1470
+indirect index 67 and value 1131
+indirect index 68 and value 9288
+indirect index 69 and value 2263
+indirect index 70 and value 8343
+indirect index 71 and value 9302
+indirect index 72 and value 1732
+indirect index 73 and value 9828
+indirect index 74 and value 2432
+indirect index 75 and value 4445
+indirect index 76 and value 10011
+indirect index 77 and value 6976
+indirect index 78 and value 1855
+indirect index 79 and value 5712
+indirect index 80 and value 2489
+indirect index 81 and value 2372
+indirect index 82 and value 8052
+indirect index 83 and value 3017
+indirect index 84 and value 5633
+indirect index 85 and value 6882
+indirect index 86 and value 9559
+indirect index 87 and value 2130
+indirect index 88 and value 9683
+indirect index 89 and value 7914
+indirect index 90 and value 3832
+indirect index 91 and value 3026
+indirect index 92 and value 6379
+indirect index 93 and value 4158
+indirect index 94 and value 2915
+indirect index 95 and value 8643
+indirect index 96 and value 5205
+indirect index 97 and value 95
+indirect index 98 and value 6938
+indirect index 99 and value 7501
+indirect index 100 and value 2528
+indirect index 101 and value 1247
+indirect index 102 and value 7376
+indirect index 103 and value 9505
+indirect index 104 and value 9231
+indirect index 105 and value 6790
+indirect index 106 and value 1468
+indirect index 107 and value 2998
+indirect index 108 and value 9807
+indirect index 109 and value 7102
+indirect index 110 and value 9880
+indirect index 111 and value 9232
+indirect index 112 and value 9428
+indirect index 113 and value 7009
+indirect index 114 and value 2929
+indirect index 115 and value 4201
+indirect index 116 and value 10036
+indirect index 117 and value 6691
+indirect index 118 and value 445
+indirect index 119 and value 4059
+indirect index 120 and value 9607
+indirect index 121 and value 9088
+indirect index 122 and value 6425
+indirect index 123 and value 4676
+indirect index 124 and value 6761
+indirect index 125 and value 6521
+indirect index 126 and value 1478
+indirect index 127 and value 4127
+indirect index 0 and value 2726
+indirect index 1 and value 1367
+indirect index 2 and value 8418
+indirect index 3 and value 7027
+indirect index 4 and value 463
+indirect index 5 and value 3364
+indirect index 6 and value 3681
+indirect index 7 and value 1932
+indirect index 8 and value 3352
+indirect index 9 and value 9034
+indirect index 10 and value 2447
+indirect index 11 and value 8131
+indirect index 12 and value 5400
+indirect index 13 and value 9456
+indirect index 14 and value 924
+indirect index 15 and value 9601
+indirect index 16 and value 9357
+indirect index 17 and value 7616
+indirect index 18 and value 10047
+indirect index 19 and value 3280
+indirect index 20 and value 7088
+indirect index 21 and value 9705
+indirect index 22 and value 1629
+indirect index 23 and value 5625
+indirect index 24 and value 6090
+indirect index 25 and value 3107
+indirect index 26 and value 9752
+indirect index 27 and value 5004
+indirect index 28 and value 5834
+indirect index 29 and value 983
+indirect index 30 and value 3287
+indirect index 31 and value 2725
+indirect index 32 and value 1447
+indirect index 33 and value 6651
+indirect index 34 and value 6407
+indirect index 35 and value 3379
+indirect index 36 and value 2878
+indirect index 37 and value 9759
+indirect index 38 and value 2278
+indirect index 39 and value 8986
+indirect index 40 and value 2071
+indirect index 41 and value 273
+indirect index 42 and value 4250
+indirect index 43 and value 1391
+indirect index 44 and value 1198
+indirect index 45 and value 613
+indirect index 46 and value 8815
+indirect index 47 and value 3627
+indirect index 48 and value 3893
+indirect index 49 and value 5767
+indirect index 50 and value 3463
+indirect index 51 and value 7396
+indirect index 52 and value 8116
+indirect index 53 and value 9553
+indirect index 54 and value 368
+indirect index 55 and value 7732
+indirect index 56 and value 4422
+indirect index 57 and value 8716
+indirect index 58 and value 7709
+indirect index 59 and value 4225
+indirect index 60 and value 5200
+indirect index 61 and value 3407
+indirect index 62 and value 7104
+indirect index 63 and value 4823
+indirect index 64 and value 5955
+indirect index 65 and value 5959
+indirect index 66 and value 69
+indirect index 67 and value 8286
+indirect index 68 and value 8900
+indirect index 69 and value 5836
+indirect index 70 and value 7413
+indirect index 71 and value 2657
+indirect index 72 and value 1467
+indirect index 73 and value 9903
+indirect index 74 and value 6120
+indirect index 75 and value 8864
+indirect index 76 and value 7884
+indirect index 77 and value 5538
+indirect index 78 and value 5480
+indirect index 79 and value 5299
+indirect index 80 and value 4060
+indirect index 81 and value 7534
+indirect index 82 and value 4092
+indirect index 83 and value 4088
+indirect index 84 and value 1624
+indirect index 85 and value 9292
+indirect index 86 and value 7495
+indirect index 87 and value 3980
+indirect index 88 and value 3044
+indirect index 89 and value 4547
+indirect index 90 and value 738
+indirect index 91 and value 9004
+indirect index 92 and value 4617
+indirect index 93 and value 9025
+indirect index 94 and value 8403
+indirect index 95 and value 1726
+indirect index 96 and value 5680
+indirect index 97 and value 311
+indirect index 98 and value 3194
+indirect index 99 and value 5448
+indirect index 100 and value 6432
+indirect index 101 and value 1922
+indirect index 102 and value 3196
+indirect index 103 and value 1834
+indirect index 104 and value 1019
+indirect index 105 and value 8676
+indirect index 106 and value 1659
+indirect index 107 and value 2600
+indirect index 108 and value 9193
+indirect index 109 and value 274
+indirect index 110 and value 6688
+indirect index 111 and value 682
+indirect index 112 and value 9566
+indirect index 113 and value 3410
+indirect index 114 and value 7092
+indirect index 115 and value 3822
+indirect index 116 and value 4149
+indirect index 117 and value 8440
+indirect index 118 and value 1851
+indirect index 119 and value 6707
+indirect index 120 and value 693
+indirect index 121 and value 3577
+indirect index 122 and value 2251
+indirect index 123 and value 1005
+indirect index 124 and value 6772
+indirect index 125 and value 7699
+indirect index 126 and value 7437
+indirect index 127 and value 8695
+indirect index 0 and value 9272
+indirect index 1 and value 9714
+indirect index 2 and value 9435
+indirect index 3 and value 795
+indirect index 4 and value 5897
+indirect index 5 and value 1900
+indirect index 6 and value 9989
+indirect index 7 and value 6172
+indirect index 8 and value 8589
+indirect index 9 and value 535
+indirect index 10 and value 5602
+indirect index 11 and value 9946
+indirect index 12 and value 9594
+indirect index 13 and value 3633
+indirect index 14 and value 3027
+indirect index 15 and value 1937
+indirect index 16 and value 6067
+indirect index 17 and value 7270
+indirect index 18 and value 712
+indirect index 19 and value 760
+indirect index 20 and value 7766
+indirect index 21 and value 7485
+indirect index 22 and value 8459
+indirect index 23 and value 5068
+indirect index 24 and value 6044
+indirect index 25 and value 9219
+indirect index 26 and value 5623
+indirect index 27 and value 8519
+indirect index 28 and value 5000
+indirect index 29 and value 1385
+indirect index 30 and value 283
+indirect index 31 and value 4853
+indirect index 32 and value 7557
+indirect index 33 and value 8873
+indirect index 34 and value 5389
+indirect index 35 and value 3024
+indirect index 36 and value 1238
+indirect index 37 and value 5199
+indirect index 38 and value 1901
+indirect index 39 and value 696
+indirect index 40 and value 8832
+indirect index 41 and value 4929
+indirect index 42 and value 6116
+indirect index 43 and value 860
+indirect index 44 and value 3251
+indirect index 45 and value 9278
+indirect index 46 and value 7621
+indirect index 47 and value 3963
+indirect index 48 and value 10039
+indirect index 49 and value 5252
+indirect index 50 and value 1313
+indirect index 51 and value 184
+indirect index 52 and value 7358
+indirect index 53 and value 7446
+indirect index 54 and value 4389
+indirect index 55 and value 2846
+indirect index 56 and value 5829
+indirect index 57 and value 9389
+indirect index 58 and value 6113
+indirect index 59 and value 4107
+indirect index 60 and value 1652
+indirect index 61 and value 4850
+indirect index 62 and value 9496
+indirect index 63 and value 6088
+indirect index 64 and value 4559
+indirect index 65 and value 6578
+indirect index 66 and value 6785
+indirect index 67 and value 3256
+indirect index 68 and value 2766
+indirect index 69 and value 3890
+indirect index 70 and value 2232
+indirect index 71 and value 6017
+indirect index 72 and value 3033
+indirect index 73 and value 9981
+indirect index 74 and value 2936
+indirect index 75 and value 4970
+indirect index 76 and value 1158
+indirect index 77 and value 1163
+indirect index 78 and value 5154
+indirect index 79 and value 8516
+indirect index 80 and value 8610
+indirect index 81 and value 1226
+indirect index 82 and value 4303
+indirect index 83 and value 5458
+indirect index 84 and value 280
+indirect index 85 and value 2768
+indirect index 86 and value 7110
+indirect index 87 and value 5130
+indirect index 88 and value 2128
+indirect index 89 and value 1651
+indirect index 90 and value 1083
+indirect index 91 and value 8230
+indirect index 92 and value 9944
+indirect index 93 and value 9602
+indirect index 94 and value 499
+indirect index 95 and value 3699
+indirect index 96 and value 6516
+indirect index 97 and value 1416
+indirect index 98 and value 9669
+indirect index 99 and value 6386
+indirect index 100 and value 7520
+indirect index 101 and value 1404
+indirect index 102 and value 5901
+indirect index 103 and value 9307
+indirect index 104 and value 812
+indirect index 105 and value 7128
+indirect index 106 and value 3475
+indirect index 107 and value 9609
+indirect index 108 and value 2450
+indirect index 109 and value 9561
+indirect index 110 and value 4370
+indirect index 111 and value 1076
+indirect index 112 and value 9970
+indirect index 113 and value 922
+indirect index 114 and value 9306
+indirect index 115 and value 730
+indirect index 116 and value 4429
+indirect index 117 and value 335
+indirect index 118 and value 4583
+indirect index 119 and value 1026
+indirect index 120 and value 1751
+indirect index 121 and value 809
+indirect index 122 and value 560
+indirect index 123 and value 8329
+indirect index 124 and value 1258
+indirect index 125 and value 4095
+indirect index 126 and value 219
+indirect index 127 and value 3904
+indirect index 0 and value 7660
+indirect index 1 and value 1935
+indirect index 2 and value 2963
+indirect index 3 and value 6411
+indirect index 4 and value 6305
+indirect index 5 and value 4039
+indirect index 6 and value 7228
+indirect index 7 and value 3210
+indirect index 8 and value 3812
+indirect index 9 and value 7959
+indirect index 10 and value 1848
+indirect index 11 and value 1879
+indirect index 12 and value 2183
+indirect index 13 and value 6462
+indirect index 14 and value 3279
+indirect index 15 and value 3935
+indirect index 16 and value 1938
+indirect index 17 and value 5465
+indirect index 18 and value 5098
+indirect index 19 and value 1345
+indirect index 20 and value 9560
+indirect index 21 and value 5527
+indirect index 22 and value 1565
+indirect index 23 and value 512
+indirect index 24 and value 9432
+indirect index 25 and value 1259
+indirect index 26 and value 3232
+indirect index 27 and value 9500
+indirect index 28 and value 917
+indirect index 29 and value 9477
+indirect index 30 and value 6593
+indirect index 31 and value 3154
+indirect index 32 and value 4416
+indirect index 33 and value 5976
+indirect index 34 and value 6668
+indirect index 35 and value 8160
+indirect index 36 and value 1359
+indirect index 37 and value 9948
+indirect index 38 and value 1959
+indirect index 39 and value 8630
+indirect index 40 and value 3652
+indirect index 41 and value 3897
+indirect index 42 and value 3960
+indirect index 43 and value 8751
+indirect index 44 and value 5243
+indirect index 45 and value 3385
+indirect index 46 and value 4143
+indirect index 47 and value 6808
+indirect index 48 and value 8067
+indirect index 49 and value 7948
+indirect index 50 and value 1126
+indirect index 51 and value 4825
+indirect index 52 and value 3493
+indirect index 53 and value 491
+indirect index 54 and value 5743
+indirect index 55 and value 2835
+
+Inode 11 -
+Next inode: 0
+Protect: 0
+Nlink: 1
+Size: 184059
+Uid: 18390
+Gid: 9921
+Ctime: 794438987
+Mtime: 1250204784
+Atime: 1854512041
+Dblocks: [6039, 7547, 8761, 6158, 833, 8098, 2930, 4757, 1029, 424]
+Iblocks: [6109, 8562, 7692, -1]
+I2block: -1
+I3block: -1
+Inode in use
+current Dblock idx in our inode = 0
+dblock 6039 out of order
+swapping
+current Dblock idx in our inode = 1
+dblock 7547 out of order
+swapping
+current Dblock idx in our inode = 2
+dblock 8761 out of order
+swapping
+current Dblock idx in our inode = 3
+dblock 6158 out of order
+swapping
+current Dblock idx in our inode = 4
+dblock 833 out of order
+swapping
+current Dblock idx in our inode = 5
+dblock 8098 out of order
+swapping
+current Dblock idx in our inode = 6
+dblock 2930 out of order
+swapping
+current Dblock idx in our inode = 7
+dblock 4757 out of order
+swapping
+current Dblock idx in our inode = 8
+dblock 1029 out of order
+swapping
+old block found in Inode 0 and iblock 1 and dlblock 119
+old block found in Inode 1 and iblock 1 and dlblock 119
+old block found in Inode 2 and iblock 1 and dlblock 119
+old block found in Inode 3 and iblock 1 and dlblock 119
+old block found in Inode 4 and iblock 1 and dlblock 119
+old block found in Inode 5 and iblock 1 and dlblock 119
+old block found in Inode 6 and iblock 1 and dlblock 119
+old block found in Inode 7 and iblock 1 and dlblock 119
+old block found in Inode 8 and iblock 1 and dlblock 119
+old block found in Inode 9 and iblock 1 and dlblock 119
+old block found in Inode 10 and iblock 1 and dlblock 119
+old block found in Inode 11 and iblock 1 and dlblock 119
+old block found in Inode 12 and iblock 1 and dlblock 119
+old block found in Inode 13 and iblock 1 and dlblock 119
+old block found in Inode 14 and iblock 1 and dlblock 119
+old block found in Inode 15 and iblock 1 and dlblock 119
+old block found in Inode 16 and iblock 1 and dlblock 119
+old block found in Inode 17 and iblock 1 and dlblock 119
+old block found in Inode 18 and iblock 1 and dlblock 119
+old block found in Inode 19 and iblock 1 and dlblock 119
+current Dblock idx in our inode = 9
+dblock 424 out of order
+swapping
+indirect index 0 and value 887
+indirect index 1 and value 3782
+indirect index 2 and value 2918
+indirect index 3 and value 6388
+indirect index 4 and value 8285
+indirect index 5 and value 1293
+indirect index 6 and value 7512
+indirect index 7 and value 7863
+indirect index 8 and value 9725
+indirect index 9 and value 3372
+indirect index 10 and value 511
+indirect index 11 and value 7375
+indirect index 12 and value 6771
+indirect index 13 and value 2562
+indirect index 14 and value 7611
+indirect index 15 and value 2515
+indirect index 16 and value 6312
+indirect index 17 and value 3376
+indirect index 18 and value 1132
+indirect index 19 and value 2215
+indirect index 20 and value 787
+indirect index 21 and value 9894
+indirect index 22 and value 8374
+indirect index 23 and value 1621
+indirect index 24 and value 7856
+indirect index 25 and value 1168
+indirect index 26 and value 6378
+indirect index 27 and value 8886
+indirect index 28 and value 1592
+indirect index 29 and value 2351
+indirect index 30 and value 9774
+indirect index 31 and value 8876
+indirect index 32 and value 6134
+indirect index 33 and value 2556
+indirect index 34 and value 5129
+indirect index 35 and value 4284
+indirect index 36 and value 3849
+indirect index 37 and value 2505
+indirect index 38 and value 2011
+indirect index 39 and value 3439
+indirect index 40 and value 5878
+indirect index 41 and value 2522
+indirect index 42 and value 678
+indirect index 43 and value 2514
+indirect index 44 and value 5085
+indirect index 45 and value 8290
+indirect index 46 and value 5029
+indirect index 47 and value 1261
+indirect index 48 and value 1530
+indirect index 49 and value 6162
+indirect index 50 and value 3477
+indirect index 51 and value 2318
+indirect index 52 and value 5920
+indirect index 53 and value 1715
+indirect index 54 and value 3641
+indirect index 55 and value 2884
+indirect index 56 and value 182
+indirect index 57 and value 2391
+indirect index 58 and value 4476
+indirect index 59 and value 3216
+indirect index 60 and value 8669
+indirect index 61 and value 4586
+indirect index 62 and value 8346
+indirect index 63 and value 2817
+indirect index 64 and value 8436
+indirect index 65 and value 715
+indirect index 66 and value 4828
+indirect index 67 and value 1740
+indirect index 68 and value 6594
+indirect index 69 and value 7351
+indirect index 70 and value 2418
+indirect index 71 and value 9108
+indirect index 72 and value 2300
+indirect index 73 and value 573
+indirect index 74 and value 4002
+indirect index 75 and value 3561
+indirect index 76 and value 2104
+indirect index 77 and value 28
+indirect index 78 and value 7038
+indirect index 79 and value 4423
+indirect index 80 and value 5949
+indirect index 81 and value 8754
+indirect index 82 and value 9590
+indirect index 83 and value 1502
+indirect index 84 and value 8545
+indirect index 85 and value 1846
+indirect index 86 and value 5978
+indirect index 87 and value 943
+indirect index 88 and value 3876
+indirect index 89 and value 9195
+indirect index 90 and value 9612
+indirect index 91 and value 8463
+indirect index 92 and value 7405
+indirect index 93 and value 2294
+indirect index 94 and value 6763
+indirect index 95 and value 8121
+indirect index 96 and value 7122
+indirect index 97 and value 8503
+indirect index 98 and value 4580
+indirect index 99 and value 4337
+indirect index 100 and value 786
+indirect index 101 and value 3552
+indirect index 102 and value 1360
+indirect index 103 and value 7554
+indirect index 104 and value 63
+indirect index 105 and value 3464
+indirect index 106 and value 7583
+indirect index 107 and value 7101
+indirect index 108 and value 7887
+indirect index 109 and value 3396
+indirect index 110 and value 5720
+indirect index 111 and value 6114
+indirect index 112 and value 2850
+indirect index 113 and value 7222
+indirect index 114 and value 4523
+indirect index 115 and value 3065
+indirect index 116 and value 5467
+indirect index 117 and value 8574
+indirect index 118 and value 2125
+indirect index 119 and value 4944
+indirect index 120 and value 6901
+indirect index 121 and value 9531
+indirect index 122 and value 7238
+indirect index 123 and value 3528
+indirect index 124 and value 7517
+indirect index 125 and value 4224
+indirect index 126 and value 1896
+indirect index 127 and value 1961
+indirect index 0 and value 5513
+indirect index 1 and value 5064
+indirect index 2 and value 4043
+indirect index 3 and value 2932
+indirect index 4 and value 5127
+indirect index 5 and value 7507
+indirect index 6 and value 379
+indirect index 7 and value 2093
+indirect index 8 and value 5259
+indirect index 9 and value 3775
+indirect index 10 and value 7813
+indirect index 11 and value 1237
+indirect index 12 and value 6626
+indirect index 13 and value 4900
+indirect index 14 and value 5760
+indirect index 15 and value 1188
+indirect index 16 and value 7965
+indirect index 17 and value 1092
+indirect index 18 and value 9762
+indirect index 19 and value 10090
+indirect index 20 and value 6036
+indirect index 21 and value 6527
+indirect index 22 and value 9486
+indirect index 23 and value 3138
+indirect index 24 and value 6867
+indirect index 25 and value 7363
+indirect index 26 and value 1816
+indirect index 27 and value 8828
+indirect index 28 and value 5790
+indirect index 29 and value 4500
+indirect index 30 and value 4206
+indirect index 31 and value 718
+indirect index 32 and value 8543
+indirect index 33 and value 7138
+indirect index 34 and value 5846
+indirect index 35 and value 5915
+indirect index 36 and value 7939
+indirect index 37 and value 1038
+indirect index 38 and value 1157
+indirect index 39 and value 5617
+indirect index 40 and value 2275
+indirect index 41 and value 7783
+indirect index 42 and value 381
+indirect index 43 and value 8036
+indirect index 44 and value 8971
+indirect index 45 and value 8347
+indirect index 46 and value 9129
+indirect index 47 and value 8598
+indirect index 48 and value 8302
+indirect index 49 and value 4989
+indirect index 50 and value 7652
+indirect index 51 and value 8168
+indirect index 52 and value 4383
+indirect index 53 and value 5396
+indirect index 54 and value 6726
+indirect index 55 and value 3075
+indirect index 56 and value 1050
+indirect index 57 and value 1090
+indirect index 58 and value 7281
+indirect index 59 and value 1769
+indirect index 60 and value 9634
+indirect index 61 and value 4283
+indirect index 62 and value 7615
+indirect index 63 and value 5413
+indirect index 64 and value 1665
+indirect index 65 and value 5419
+indirect index 66 and value 6451
+indirect index 67 and value 2822
+indirect index 68 and value 900
+indirect index 69 and value 8727
+indirect index 70 and value 470
+indirect index 71 and value 1282
+indirect index 72 and value 6628
+indirect index 73 and value 9442
+indirect index 74 and value 9629
+indirect index 75 and value 5621
+indirect index 76 and value 7904
+indirect index 77 and value 7795
+indirect index 78 and value 515
+indirect index 79 and value 2758
+indirect index 80 and value 5311
+indirect index 81 and value 8684
+indirect index 82 and value 7667
+indirect index 83 and value 9695
+indirect index 84 and value 3944
+indirect index 85 and value 4258
+indirect index 86 and value 2634
+indirect index 87 and value 4995
+indirect index 88 and value 5349
+indirect index 89 and value 9916
+indirect index 90 and value 6765
+indirect index 91 and value 4847
+indirect index 92 and value 4064
+indirect index 93 and value 4244
+indirect index 94 and value 5729
+indirect index 95 and value 9663
+indirect index 96 and value 6576
+indirect index 97 and value 8552
+indirect index 98 and value 428
+indirect index 99 and value 5168
+indirect index 100 and value 9023
+indirect index 101 and value 1710
+indirect index 102 and value 1661
+indirect index 103 and value 1203
+indirect index 104 and value 7282
+indirect index 105 and value 6099
+indirect index 106 and value 8999
+indirect index 107 and value 7798
+indirect index 108 and value 8857
+indirect index 109 and value 4175
+indirect index 110 and value 6346
+indirect index 111 and value 6389
+indirect index 112 and value 3734
+indirect index 113 and value 155
+indirect index 114 and value 5151
+indirect index 115 and value 5861
+indirect index 116 and value 6149
+indirect index 117 and value 1780
+indirect index 118 and value 572
+indirect index 119 and value 77
+indirect index 120 and value 6025
+indirect index 121 and value 697
+indirect index 122 and value 5807
+indirect index 123 and value 5553
+indirect index 124 and value 7274
+indirect index 125 and value 5981
+indirect index 126 and value 2306
+indirect index 127 and value 3111
+indirect index 0 and value 3968
+indirect index 1 and value 1306
+indirect index 2 and value 8896
+indirect index 3 and value 1114
+indirect index 4 and value 7759
+indirect index 5 and value 8913
+indirect index 6 and value 6126
+indirect index 7 and value 1798
+indirect index 8 and value 5124
+indirect index 9 and value 2380
+indirect index 10 and value 5532
+indirect index 11 and value 5279
+indirect index 12 and value 2892
+indirect index 13 and value 1765
+indirect index 14 and value 294
+indirect index 15 and value 8753
+indirect index 16 and value 7915
+indirect index 17 and value 2075
+indirect index 18 and value 9325
+indirect index 19 and value 7992
+indirect index 20 and value 8100
+indirect index 21 and value 10022
+indirect index 22 and value 3664
+indirect index 23 and value 3517
+indirect index 24 and value 7161
+indirect index 25 and value 9499
+indirect index 26 and value 9467
+indirect index 27 and value 864
+indirect index 28 and value 7055
+indirect index 29 and value 3299
+indirect index 30 and value 2170
+indirect index 31 and value 4414
+indirect index 32 and value 9575
+indirect index 33 and value 3438
+indirect index 34 and value 3192
+indirect index 35 and value 5566
+indirect index 36 and value 5237
+indirect index 37 and value 8316
+indirect index 38 and value 7946
+indirect index 39 and value 634
+indirect index 40 and value 3460
+indirect index 41 and value 702
+indirect index 42 and value 2400
+indirect index 43 and value 3755
+indirect index 44 and value 9455
+indirect index 45 and value 179
+indirect index 46 and value 5830
+indirect index 47 and value 8645
+indirect index 48 and value 8171
+indirect index 49 and value 3794
+indirect index 50 and value 8531
+indirect index 51 and value 1699
+indirect index 52 and value 7312
+indirect index 53 and value 5556
+indirect index 54 and value 9588
+indirect index 55 and value 6675
+indirect index 56 and value 4888
+indirect index 57 and value 316
+indirect index 58 and value 3594
+indirect index 59 and value 8188
+indirect index 60 and value 2486
+indirect index 61 and value 9410
+indirect index 62 and value 2467
+indirect index 63 and value 2713
+indirect index 64 and value 5660
+indirect index 65 and value 7492
+indirect index 66 and value 7950
+indirect index 67 and value 3840
+indirect index 68 and value 5303
+indirect index 69 and value 8585
+indirect index 70 and value 7301
+indirect index 71 and value 6006
+indirect index 72 and value 849
+indirect index 73 and value 5325
+indirect index 74 and value 1028
+indirect index 75 and value 6750
+indirect index 76 and value 3834
+indirect index 77 and value 9200
+indirect index 78 and value 409
+indirect index 79 and value 2230
+indirect index 80 and value 764
+indirect index 81 and value 7721
+indirect index 82 and value 7787
+indirect index 83 and value 216
+indirect index 84 and value 4261
+indirect index 85 and value 2540
+indirect index 86 and value 532
+indirect index 87 and value 593
+indirect index 88 and value 3019
+indirect index 89 and value 7130
+indirect index 90 and value 3061
+indirect index 91 and value 4946
+indirect index 92 and value 9843
+indirect index 93 and value 8721
+
+Inode 12 -
+Next inode: 0
+Protect: 0
+Nlink: 1
+Size: 93821
+Uid: 18390
+Gid: 9921
+Ctime: 86291338
+Mtime: 146451080
+Atime: 257953503
+Dblocks: [8856, 7217, 6803, 3570, 4585, 1544, 7888, 6444, 5808, 9625]
+Iblocks: [1862, 8248, -1, -1]
+I2block: -1
+I3block: -1
+Inode in use
+current Dblock idx in our inode = 0
+dblock 8856 out of order
+swapping
+current Dblock idx in our inode = 1
+dblock 7217 out of order
+swapping
+current Dblock idx in our inode = 2
+dblock 6803 out of order
+swapping
+current Dblock idx in our inode = 3
+dblock 3570 out of order
+swapping
+current Dblock idx in our inode = 4
+dblock 4585 out of order
+swapping
+current Dblock idx in our inode = 5
+dblock 1544 out of order
+swapping
+current Dblock idx in our inode = 6
+dblock 7888 out of order
+swapping
+current Dblock idx in our inode = 7
+dblock 6444 out of order
+swapping
+current Dblock idx in our inode = 8
+dblock 5808 out of order
+swapping
+current Dblock idx in our inode = 9
+dblock 9625 out of order
+swapping
+indirect index 0 and value 5679
+indirect index 1 and value 5511
+indirect index 2 and value 7811
+indirect index 3 and value 1528
+indirect index 4 and value 7241
+indirect index 5 and value 5466
+indirect index 6 and value 7555
+indirect index 7 and value 7929
+indirect index 8 and value 9501
+indirect index 9 and value 1228
+indirect index 10 and value 8362
+indirect index 11 and value 10110
+indirect index 12 and value 8391
+indirect index 13 and value 8195
+indirect index 14 and value 6562
+indirect index 15 and value 229
+indirect index 16 and value 4300
+indirect index 17 and value 6969
+indirect index 18 and value 920
+indirect index 19 and value 5517
+indirect index 20 and value 5690
+indirect index 21 and value 8138
+indirect index 22 and value 2185
+indirect index 23 and value 9260
+indirect index 24 and value 2588
+indirect index 25 and value 3729
+indirect index 26 and value 7013
+indirect index 27 and value 9032
+indirect index 28 and value 9538
+indirect index 29 and value 6502
+indirect index 30 and value 758
+indirect index 31 and value 5081
+indirect index 32 and value 1878
+indirect index 33 and value 8570
+indirect index 34 and value 6609
+indirect index 35 and value 9120
+indirect index 36 and value 3900
+indirect index 37 and value 4029
+indirect index 38 and value 6914
+indirect index 39 and value 3266
+indirect index 40 and value 5258
+indirect index 41 and value 5140
+indirect index 42 and value 3240
+indirect index 43 and value 3513
+indirect index 44 and value 3200
+indirect index 45 and value 9803
+indirect index 46 and value 3742
+indirect index 47 and value 7500
+indirect index 48 and value 6637
+indirect index 49 and value 4663
+indirect index 50 and value 2882
+indirect index 51 and value 2191
+indirect index 52 and value 2666
+indirect index 53 and value 5067
+indirect index 54 and value 1316
+indirect index 55 and value 5254
+indirect index 56 and value 8797
+indirect index 57 and value 8330
+indirect index 58 and value 4150
+indirect index 59 and value 8200
+indirect index 60 and value 4697
+indirect index 61 and value 4909
+indirect index 62 and value 3146
+indirect index 63 and value 6575
+indirect index 64 and value 3343
+indirect index 65 and value 9756
+indirect index 66 and value 5560
+indirect index 67 and value 7243
+indirect index 68 and value 3649
+indirect index 69 and value 2338
+indirect index 70 and value 374
+indirect index 71 and value 8907
+indirect index 72 and value 7479
+indirect index 73 and value 3615
+indirect index 74 and value 2285
+indirect index 75 and value 543
+indirect index 76 and value 3283
+indirect index 77 and value 6028
+indirect index 78 and value 8044
+indirect index 79 and value 9920
+indirect index 80 and value 555
+indirect index 81 and value 791
+indirect index 82 and value 1976
+indirect index 83 and value 3221
+indirect index 84 and value 5859
+indirect index 85 and value 3292
+indirect index 86 and value 8476
+indirect index 87 and value 4521
+indirect index 88 and value 1487
+indirect index 89 and value 2490
+indirect index 90 and value 2585
+indirect index 91 and value 6184
+indirect index 92 and value 7399
+indirect index 93 and value 5731
+indirect index 94 and value 2623
+indirect index 95 and value 606
+indirect index 96 and value 5352
+indirect index 97 and value 8184
+indirect index 98 and value 7850
+indirect index 99 and value 9001
+indirect index 100 and value 386
+indirect index 101 and value 8225
+indirect index 102 and value 7773
+indirect index 103 and value 7865
+indirect index 104 and value 1704
+indirect index 105 and value 10058
+indirect index 106 and value 8409
+indirect index 107 and value 4987
+indirect index 108 and value 5951
+indirect index 109 and value 6318
+indirect index 110 and value 4772
+indirect index 111 and value 6507
+indirect index 112 and value 7109
+indirect index 113 and value 6748
+indirect index 114 and value 9728
+indirect index 115 and value 2833
+indirect index 116 and value 10041
+indirect index 117 and value 8069
+indirect index 118 and value 7354
+indirect index 119 and value 1392
+indirect index 120 and value 423
+indirect index 121 and value 9939
+indirect index 122 and value 7576
+indirect index 123 and value 7822
+indirect index 124 and value 5535
+indirect index 125 and value 64
+indirect index 126 and value 8429
+indirect index 127 and value 752
+indirect index 0 and value 6144
+indirect index 1 and value 9753
+indirect index 2 and value 8635
+indirect index 3 and value 4233
+indirect index 4 and value 7391
+indirect index 5 and value 6365
+indirect index 6 and value 5938
+indirect index 7 and value 7314
+indirect index 8 and value 4638
+indirect index 9 and value 790
+indirect index 10 and value 3129
+indirect index 11 and value 821
+indirect index 12 and value 5562
+indirect index 13 and value 9636
+indirect index 14 and value 7931
+indirect index 15 and value 2175
+indirect index 16 and value 9229
+indirect index 17 and value 628
+indirect index 18 and value 2080
+indirect index 19 and value 7162
+indirect index 20 and value 7982
+indirect index 21 and value 3472
+indirect index 22 and value 7586
+indirect index 23 and value 7786
+indirect index 24 and value 913
+indirect index 25 and value 5273
+indirect index 26 and value 3186
+indirect index 27 and value 977
+indirect index 28 and value 3566
+indirect index 29 and value 3938
+indirect index 30 and value 9225
+indirect index 31 and value 9711
+indirect index 32 and value 3556
+indirect index 33 and value 7725
+indirect index 34 and value 3809
+indirect index 35 and value 811
+indirect index 36 and value 3954
+indirect index 37 and value 9747
+indirect index 38 and value 8126
+indirect index 39 and value 8593
+indirect index 40 and value 402
+indirect index 41 and value 1120
+indirect index 42 and value 9414
+indirect index 43 and value 5964
+indirect index 44 and value 620
+indirect index 45 and value 7210
+
+Inode 13 -
+Next inode: 0
+Protect: 0
+Nlink: 1
+Size: 15164
+Uid: 18390
+Gid: 9921
+Ctime: 1625393654
+Mtime: 1002637252
+Atime: 1655750788
+Dblocks: [5257, 2384, 8031, 9518, 4925, 8564, 5518, 1448, 8580, 6394]
+Iblocks: [3940, -1, -1, -1]
+I2block: -1
+I3block: -1
+Inode in use
+current Dblock idx in our inode = 0
+dblock 5257 out of order
+swapping
+current Dblock idx in our inode = 1
+dblock 2384 out of order
+swapping
+current Dblock idx in our inode = 2
+dblock 8031 out of order
+swapping
+current Dblock idx in our inode = 3
+dblock 9518 out of order
+swapping
+current Dblock idx in our inode = 4
+dblock 4925 out of order
+swapping
+current Dblock idx in our inode = 5
+dblock 8564 out of order
+swapping
+current Dblock idx in our inode = 6
+dblock 5518 out of order
+swapping
+current Dblock idx in our inode = 7
+dblock 1448 out of order
+swapping
+current Dblock idx in our inode = 8
+dblock 8580 out of order
+swapping
+current Dblock idx in our inode = 9
+dblock 6394 out of order
+swapping
+indirect index 0 and value 7165
+indirect index 1 and value 8697
+indirect index 2 and value 1462
+indirect index 3 and value 9592
+indirect index 4 and value 6167
+indirect index 5 and value 7570
+indirect index 6 and value 9184
+indirect index 7 and value 9644
+indirect index 8 and value 4391
+indirect index 9 and value 8311
+indirect index 10 and value 2241
+indirect index 11 and value 6822
+indirect index 12 and value 676
+indirect index 13 and value 9291
+indirect index 14 and value 4357
+indirect index 15 and value 5408
+indirect index 16 and value 6970
+indirect index 17 and value 9615
+indirect index 18 and value 7793
+indirect index 19 and value 4866
+
+Inode 14 -
+Next inode: 0
+Protect: 0
+Nlink: 1
+Size: 1273
+Uid: 18390
+Gid: 9921
+Ctime: 1678380632
+Mtime: 455708158
+Atime: 1033999376
+Dblocks: [10097, 2373, 5996, -1, -1, -1, -1, -1, -1, -1]
+Iblocks: [-1, -1, -1, -1]
+I2block: -1
+I3block: -1
+Inode in use
+current Dblock idx in our inode = 0
+dblock 10097 out of order
+swapping
+current Dblock idx in our inode = 1
+dblock 2373 out of order
+swapping
+current Dblock idx in our inode = 2
+dblock 5996 out of order
+swapping
+current Dblock idx in our inode = 3
+hit start of free dblocks
+
+Inode 15 -
+Next inode: 0
+Protect: 0
+Nlink: 1
+Size: 86
+Uid: 18390
+Gid: 9921
+Ctime: 1452797107
+Mtime: 1864832770
+Atime: 1780807836
+Dblocks: [3607, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+Iblocks: [-1, -1, -1, -1]
+I2block: -1
+I3block: -1
+Inode in use
+current Dblock idx in our inode = 0
+dblock 3607 out of order
+swapping
+current Dblock idx in our inode = 1
+hit start of free dblocks
+
+Inode 16 -
+Next inode: 0
+Protect: 0
+Nlink: 1
+Size: 2324
+Uid: 18390
+Gid: 9921
+Ctime: 2087005522
+Mtime: 1660714484
+Atime: 17815032
+Dblocks: [6877, 5685, 4327, 3335, 4470, -1, -1, -1, -1, -1]
+Iblocks: [-1, -1, -1, -1]
+I2block: -1
+I3block: -1
+Inode in use
+current Dblock idx in our inode = 0
+dblock 6877 out of order
+swapping
+current Dblock idx in our inode = 1
+dblock 5685 out of order
+swapping
+current Dblock idx in our inode = 2
+dblock 4327 out of order
+swapping
+current Dblock idx in our inode = 3
+dblock 3335 out of order
+swapping
+current Dblock idx in our inode = 4
+dblock 4470 out of order
+swapping
+current Dblock idx in our inode = 5
+hit start of free dblocks
+
+Inode 17 -
+Next inode: 0
+Protect: 0
+Nlink: 1
+Size: 250637
+Uid: 18390
+Gid: 9921
+Ctime: 547108584
+Mtime: 698147071
+Atime: 1292578230
+Dblocks: [8101, 4743, 197, 6545, 1001, 3575, 9698, 5601, 3031, 5730]
+Iblocks: [3035, 1060, 7749, 8535]
+I2block: -1
+I3block: -1
+Inode in use
+current Dblock idx in our inode = 0
+dblock 8101 out of order
+swapping
+current Dblock idx in our inode = 1
+dblock 4743 out of order
+swapping
+current Dblock idx in our inode = 2
+dblock 197 out of order
+swapping
+current Dblock idx in our inode = 3
+dblock 6545 out of order
+swapping
+current Dblock idx in our inode = 4
+dblock 1001 out of order
+swapping
+current Dblock idx in our inode = 5
+dblock 3575 out of order
+swapping
+current Dblock idx in our inode = 6
+dblock 9698 out of order
+swapping
+current Dblock idx in our inode = 7
+dblock 5601 out of order
+swapping
+current Dblock idx in our inode = 8
+dblock 3031 out of order
+swapping
+current Dblock idx in our inode = 9
+dblock 5730 out of order
+swapping
+indirect index 0 and value 2079
+indirect index 1 and value 5239
+indirect index 2 and value 7426
+indirect index 3 and value 1639
+indirect index 4 and value 3414
+indirect index 5 and value 9668
+indirect index 6 and value 8461
+indirect index 7 and value 4090
+indirect index 8 and value 8824
+indirect index 9 and value 5659
+indirect index 10 and value 2163
+indirect index 11 and value 7157
+indirect index 12 and value 389
+indirect index 13 and value 1025
+indirect index 14 and value 3685
+indirect index 15 and value 7126
+indirect index 16 and value 7704
+indirect index 17 and value 8428
+indirect index 18 and value 7324
+indirect index 19 and value 4113
+indirect index 20 and value 9430
+indirect index 21 and value 1326
+indirect index 22 and value 7689
+indirect index 23 and value 8993
+indirect index 24 and value 6927
+indirect index 25 and value 584
+indirect index 26 and value 4587
+indirect index 27 and value 9963
+indirect index 28 and value 2664
+indirect index 29 and value 9827
+indirect index 30 and value 7253
+indirect index 31 and value 4304
+indirect index 32 and value 3105
+indirect index 33 and value 6786
+indirect index 34 and value 2629
+indirect index 35 and value 7196
+indirect index 36 and value 5474
+indirect index 37 and value 5313
+indirect index 38 and value 6560
+indirect index 39 and value 997
+indirect index 40 and value 7476
+indirect index 41 and value 3581
+indirect index 42 and value 1387
+indirect index 43 and value 8501
+indirect index 44 and value 3184
+indirect index 45 and value 5072
+indirect index 46 and value 5491
+indirect index 47 and value 753
+indirect index 48 and value 3365
+indirect index 49 and value 2679
+indirect index 50 and value 4867
+indirect index 51 and value 2659
+indirect index 52 and value 4006
+indirect index 53 and value 2420
+indirect index 54 and value 1516
+indirect index 55 and value 797
+indirect index 56 and value 3005
+indirect index 57 and value 6104
+indirect index 58 and value 5669
+indirect index 59 and value 5795
+indirect index 60 and value 7878
+indirect index 61 and value 9973
+indirect index 62 and value 8901
+indirect index 63 and value 5961
+indirect index 64 and value 10003
+indirect index 65 and value 7780
+indirect index 66 and value 2386
+indirect index 67 and value 865
+indirect index 68 and value 5121
+indirect index 69 and value 5967
+indirect index 70 and value 2252
+indirect index 71 and value 3487
+indirect index 72 and value 9152
+indirect index 73 and value 7325
+indirect index 74 and value 8978
+indirect index 75 and value 9906
+indirect index 76 and value 554
+indirect index 77 and value 1522
+indirect index 78 and value 4637
+indirect index 79 and value 3213
+indirect index 80 and value 5528
+indirect index 81 and value 7057
+indirect index 82 and value 4730
+indirect index 83 and value 6326
+indirect index 84 and value 10062
+indirect index 85 and value 698
+indirect index 86 and value 6951
+indirect index 87 and value 5596
+indirect index 88 and value 6493
+indirect index 89 and value 4694
+indirect index 90 and value 5434
+indirect index 91 and value 9223
+indirect index 92 and value 7901
+indirect index 93 and value 1084
+indirect index 94 and value 9090
+indirect index 95 and value 3471
+indirect index 96 and value 9955
+indirect index 97 and value 531
+indirect index 98 and value 9438
+indirect index 99 and value 2072
+indirect index 100 and value 4018
+indirect index 101 and value 8455
+indirect index 102 and value 9397
+indirect index 103 and value 2861
+indirect index 104 and value 9951
+indirect index 105 and value 4384
+indirect index 106 and value 2727
+indirect index 107 and value 3029
+indirect index 108 and value 9913
+indirect index 109 and value 9785
+indirect index 110 and value 9712
+indirect index 111 and value 8457
+indirect index 112 and value 2919
+indirect index 113 and value 5172
+indirect index 114 and value 4815
+indirect index 115 and value 7614
+indirect index 116 and value 471
+indirect index 117 and value 10074
+indirect index 118 and value 6701
+indirect index 119 and value 8372
+indirect index 120 and value 1023
+indirect index 121 and value 5655
+indirect index 122 and value 3783
+indirect index 123 and value 4494
+indirect index 124 and value 5475
+indirect index 125 and value 4315
+indirect index 126 and value 3797
+indirect index 127 and value 2116
+indirect index 0 and value 206
+indirect index 1 and value 6625
+indirect index 2 and value 2934
+indirect index 3 and value 9654
+indirect index 4 and value 5222
+indirect index 5 and value 2583
+indirect index 6 and value 7278
+indirect index 7 and value 1190
+indirect index 8 and value 2159
+indirect index 9 and value 5600
+indirect index 10 and value 4110
+indirect index 11 and value 7332
+indirect index 12 and value 7803
+indirect index 13 and value 218
+indirect index 14 and value 6040
+indirect index 15 and value 1242
+indirect index 16 and value 9824
+indirect index 17 and value 5736
+indirect index 18 and value 9285
+indirect index 19 and value 4003
+indirect index 20 and value 9534
+indirect index 21 and value 6697
+indirect index 22 and value 2201
+indirect index 23 and value 1514
+indirect index 24 and value 3370
+indirect index 25 and value 3262
+indirect index 26 and value 1721
+indirect index 27 and value 9996
+indirect index 28 and value 8706
+indirect index 29 and value 4655
+indirect index 30 and value 9514
+indirect index 31 and value 3793
+indirect index 32 and value 7239
+indirect index 33 and value 6657
+indirect index 34 and value 4983
+indirect index 35 and value 9399
+indirect index 36 and value 2121
+indirect index 37 and value 9094
+indirect index 38 and value 6595
+indirect index 39 and value 2401
+indirect index 40 and value 547
+indirect index 41 and value 4263
+indirect index 42 and value 8837
+indirect index 43 and value 168
+indirect index 44 and value 3862
+indirect index 45 and value 2511
+indirect index 46 and value 9992
+indirect index 47 and value 9598
+indirect index 48 and value 1660
+indirect index 49 and value 3860
+indirect index 50 and value 8997
+indirect index 51 and value 8358
+indirect index 52 and value 6061
+indirect index 53 and value 375
+indirect index 54 and value 1593
+indirect index 55 and value 9323
+indirect index 56 and value 2097
+indirect index 57 and value 1453
+indirect index 58 and value 7894
+indirect index 59 and value 6753
+indirect index 60 and value 832
+indirect index 61 and value 1551
+indirect index 62 and value 3856
+indirect index 63 and value 7489
+indirect index 64 and value 6535
+indirect index 65 and value 3120
+indirect index 66 and value 9610
+indirect index 67 and value 5494
+indirect index 68 and value 9716
+indirect index 69 and value 1876
+indirect index 70 and value 6041
+indirect index 71 and value 3844
+indirect index 72 and value 4496
+indirect index 73 and value 4012
+indirect index 74 and value 7254
+indirect index 75 and value 3869
+indirect index 76 and value 7821
+indirect index 77 and value 8915
+indirect index 78 and value 7729
+indirect index 79 and value 6682
+indirect index 80 and value 7137
+indirect index 81 and value 3655
+indirect index 82 and value 7058
+indirect index 83 and value 8730
+indirect index 84 and value 2843
+indirect index 85 and value 9156
+indirect index 86 and value 48
+indirect index 87 and value 601
+indirect index 88 and value 5773
+indirect index 89 and value 2153
+indirect index 90 and value 9630
+indirect index 91 and value 8369
+indirect index 92 and value 8689
+indirect index 93 and value 2615
+indirect index 94 and value 7844
+indirect index 95 and value 4048
+indirect index 96 and value 2195
+indirect index 97 and value 9720
+indirect index 98 and value 4081
+indirect index 99 and value 10052
+indirect index 100 and value 2304
+indirect index 101 and value 3785
+indirect index 102 and value 10126
+indirect index 103 and value 595
+indirect index 104 and value 1378
+indirect index 105 and value 6673
+indirect index 106 and value 7733
+indirect index 107 and value 5033
+indirect index 108 and value 3595
+indirect index 109 and value 6328
+indirect index 110 and value 7876
+indirect index 111 and value 2616
+indirect index 112 and value 6376
+indirect index 113 and value 8478
+indirect index 114 and value 8390
+indirect index 115 and value 7256
+indirect index 116 and value 496
+indirect index 117 and value 7885
+indirect index 118 and value 5490
+indirect index 119 and value 9185
+indirect index 120 and value 364
+indirect index 121 and value 3199
+indirect index 122 and value 3098
+indirect index 123 and value 2559
+indirect index 124 and value 2784
+indirect index 125 and value 3052
+indirect index 126 and value 8599
+indirect index 127 and value 6865
+indirect index 0 and value 8515
+indirect index 1 and value 9169
+indirect index 2 and value 9565
+indirect index 3 and value 2165
+indirect index 4 and value 9160
+indirect index 5 and value 25
+indirect index 6 and value 3543
+indirect index 7 and value 5697
+indirect index 8 and value 8577
+indirect index 9 and value 9293
+indirect index 10 and value 3951
+indirect index 11 and value 1773
+indirect index 12 and value 192
+indirect index 13 and value 4661
+indirect index 14 and value 27
+indirect index 15 and value 7449
+indirect index 16 and value 5157
+indirect index 17 and value 7912
+indirect index 18 and value 2803
+indirect index 19 and value 4207
+indirect index 20 and value 8277
+indirect index 21 and value 7305
+indirect index 22 and value 701
+indirect index 23 and value 8787
+indirect index 24 and value 222
+indirect index 25 and value 9300
+indirect index 26 and value 5516
+indirect index 27 and value 7971
+indirect index 28 and value 7680
+indirect index 29 and value 4550
+indirect index 30 and value 7401
+indirect index 31 and value 9845
+indirect index 32 and value 3574
+indirect index 33 and value 7427
+indirect index 34 and value 3253
+indirect index 35 and value 9271
+indirect index 36 and value 5050
+indirect index 37 and value 1695
+indirect index 38 and value 8014
+indirect index 39 and value 66
+indirect index 40 and value 9194
+indirect index 41 and value 2539
+indirect index 42 and value 94
+indirect index 43 and value 7697
+indirect index 44 and value 8006
+indirect index 45 and value 9311
+indirect index 46 and value 6148
+indirect index 47 and value 5178
+indirect index 48 and value 9075
+indirect index 49 and value 6849
+indirect index 50 and value 3829
+indirect index 51 and value 9297
+indirect index 52 and value 6014
+indirect index 53 and value 9346
+indirect index 54 and value 7133
+indirect index 55 and value 3558
+indirect index 56 and value 3760
+indirect index 57 and value 4399
+indirect index 58 and value 3268
+indirect index 59 and value 7335
+indirect index 60 and value 1690
+indirect index 61 and value 6522
+indirect index 62 and value 6471
+indirect index 63 and value 6740
+indirect index 64 and value 8218
+indirect index 65 and value 5606
+indirect index 66 and value 6096
+indirect index 67 and value 4830
+indirect index 68 and value 4664
+indirect index 69 and value 8636
+indirect index 70 and value 1036
+indirect index 71 and value 2795
+indirect index 72 and value 7967
+indirect index 73 and value 8944
+indirect index 74 and value 5390
+indirect index 75 and value 6906
+indirect index 76 and value 5657
+indirect index 77 and value 9220
+indirect index 78 and value 6068
+indirect index 79 and value 1536
+indirect index 80 and value 8430
+indirect index 81 and value 5095
+indirect index 82 and value 2055
+indirect index 83 and value 7465
+indirect index 84 and value 8363
+indirect index 85 and value 9390
+indirect index 86 and value 9155
+indirect index 87 and value 4750
+indirect index 88 and value 5726
+indirect index 89 and value 5759
+indirect index 90 and value 2832
+indirect index 91 and value 354
+indirect index 92 and value 1230
+indirect index 93 and value 8928
+indirect index 94 and value 5185
+indirect index 95 and value 5894
+indirect index 96 and value 7429
+indirect index 97 and value 6931
+indirect index 98 and value 3490
+indirect index 99 and value 2770
+indirect index 100 and value 7143
+indirect index 101 and value 1322
+indirect index 102 and value 1579
+indirect index 103 and value 2398
+indirect index 104 and value 7236
+indirect index 105 and value 1482
+indirect index 106 and value 4161
+indirect index 107 and value 8773
+indirect index 108 and value 7227
+indirect index 109 and value 3732
+indirect index 110 and value 1832
+indirect index 111 and value 4556
+indirect index 112 and value 1960
+indirect index 113 and value 1087
+indirect index 114 and value 6710
+indirect index 115 and value 6813
+indirect index 116 and value 9543
+indirect index 117 and value 7168
+indirect index 118 and value 8335
+indirect index 119 and value 2218
+indirect index 120 and value 6324
+indirect index 121 and value 5628
+indirect index 122 and value 9119
+indirect index 123 and value 4964
+indirect index 124 and value 128
+indirect index 125 and value 306
+indirect index 126 and value 6543
+indirect index 127 and value 2526
+indirect index 0 and value 3644
+indirect index 1 and value 4009
+indirect index 2 and value 2561
+indirect index 3 and value 2281
+indirect index 4 and value 3786
+indirect index 5 and value 9788
+indirect index 6 and value 5619
+indirect index 7 and value 4209
+indirect index 8 and value 7974
+indirect index 9 and value 6706
+indirect index 10 and value 4548
+indirect index 11 and value 3384
+indirect index 12 and value 6985
+indirect index 13 and value 3956
+indirect index 14 and value 417
+indirect index 15 and value 7415
+indirect index 16 and value 2155
+indirect index 17 and value 2636
+indirect index 18 and value 7784
+indirect index 19 and value 6768
+indirect index 20 and value 9794
+indirect index 21 and value 6852
+indirect index 22 and value 7074
+indirect index 23 and value 6202
+indirect index 24 and value 9379
+indirect index 25 and value 9846
+indirect index 26 and value 3252
+indirect index 27 and value 8035
+indirect index 28 and value 1992
+indirect index 29 and value 7039
+indirect index 30 and value 1761
+indirect index 31 and value 5844
+indirect index 32 and value 9546
+indirect index 33 and value 257
+indirect index 34 and value 2478
+indirect index 35 and value 6396
+indirect index 36 and value 4213
+indirect index 37 and value 2895
+indirect index 38 and value 6369
+indirect index 39 and value 7279
+indirect index 40 and value 226
+indirect index 41 and value 3868
+indirect index 42 and value 651
+indirect index 43 and value 10021
+indirect index 44 and value 585
+indirect index 45 and value 6087
+indirect index 46 and value 9964
+indirect index 47 and value 3063
+indirect index 48 and value 5797
+indirect index 49 and value 3081
+indirect index 50 and value 962
+indirect index 51 and value 7790
+indirect index 52 and value 10120
+indirect index 53 and value 8650
+indirect index 54 and value 2506
+indirect index 55 and value 275
+indirect index 56 and value 1369
+indirect index 57 and value 9822
+indirect index 58 and value 1627
+indirect index 59 and value 4078
+indirect index 60 and value 6082
+indirect index 61 and value 5841
+indirect index 62 and value 6974
+indirect index 63 and value 9757
+indirect index 64 and value 2370
+indirect index 65 and value 6094
+indirect index 66 and value 633
+indirect index 67 and value 6745
+indirect index 68 and value 2482
+indirect index 69 and value 1219
+indirect index 70 and value 4335
+indirect index 71 and value 8569
+indirect index 72 and value 1047
+indirect index 73 and value 7398
+indirect index 74 and value 4231
+indirect index 75 and value 4128
+indirect index 76 and value 8361
+indirect index 77 and value 1885
+indirect index 78 and value 6876
+indirect index 79 and value 7546
+indirect index 80 and value 6619
+indirect index 81 and value 7152
+indirect index 82 and value 8916
+indirect index 83 and value 8220
+indirect index 84 and value 6838
+indirect index 85 and value 408
+indirect index 86 and value 2162
+indirect index 87 and value 2785
+indirect index 88 and value 6250
+indirect index 89 and value 9136
+indirect index 90 and value 2407
+indirect index 91 and value 8325
+indirect index 92 and value 1371
+indirect index 93 and value 9309
+indirect index 94 and value 3969
+indirect index 95 and value 9942
+
+Inode 18 -
+Next inode: 0
+Protect: 0
+Nlink: 1
+Size: 181905
+Uid: 18390
+Gid: 9921
+Ctime: 1381881857
+Mtime: 1154152371
+Atime: 642236116
+Dblocks: [324, 4537, 2606, 3881, 2126, 6416, 4693, 6080, 6027, 2683]
+Iblocks: [6429, 4066, 6620, -1]
+I2block: -1
+I3block: -1
+Inode in use
+current Dblock idx in our inode = 0
+dblock 324 out of order
+swapping
+old block found in Inode 0 and iblock 2 and dlblock 74
+old block found in Inode 1 and iblock 2 and dlblock 74
+old block found in Inode 2 and iblock 2 and dlblock 74
+old block found in Inode 3 and iblock 2 and dlblock 74
+old block found in Inode 4 and iblock 2 and dlblock 74
+old block found in Inode 5 and iblock 2 and dlblock 74
+old block found in Inode 6 and iblock 2 and dlblock 74
+old block found in Inode 7 and iblock 2 and dlblock 74
+old block found in Inode 8 and iblock 2 and dlblock 74
+old block found in Inode 9 and iblock 2 and dlblock 74
+old block found in Inode 10 and iblock 2 and dlblock 74
+old block found in Inode 11 and iblock 2 and dlblock 74
+old block found in Inode 12 and iblock 2 and dlblock 74
+old block found in Inode 13 and iblock 2 and dlblock 74
+old block found in Inode 14 and iblock 2 and dlblock 74
+old block found in Inode 15 and iblock 2 and dlblock 74
+old block found in Inode 16 and iblock 2 and dlblock 74
+old block found in Inode 17 and iblock 2 and dlblock 74
+old block found in Inode 18 and iblock 2 and dlblock 74
+old block found in Inode 19 and iblock 2 and dlblock 74
+current Dblock idx in our inode = 1
+dblock 4537 out of order
+swapping
+current Dblock idx in our inode = 2
+dblock 2606 out of order
+swapping
+current Dblock idx in our inode = 3
+dblock 3881 out of order
+swapping
+current Dblock idx in our inode = 4
+dblock 2126 out of order
+swapping
+current Dblock idx in our inode = 5
+dblock 6416 out of order
+swapping
+current Dblock idx in our inode = 6
+dblock 4693 out of order
+swapping
+old block found in Inode 0 and iblock 1 and dlblock 39
+old block found in Inode 1 and iblock 1 and dlblock 39
+old block found in Inode 2 and iblock 1 and dlblock 39
+old block found in Inode 3 and iblock 1 and dlblock 39
+old block found in Inode 4 and iblock 1 and dlblock 39
+old block found in Inode 5 and iblock 1 and dlblock 39
+old block found in Inode 6 and iblock 1 and dlblock 39
+old block found in Inode 7 and iblock 1 and dlblock 39
+old block found in Inode 8 and iblock 1 and dlblock 39
+old block found in Inode 9 and iblock 1 and dlblock 39
+old block found in Inode 10 and iblock 1 and dlblock 39
+old block found in Inode 11 and iblock 1 and dlblock 39
+old block found in Inode 12 and iblock 1 and dlblock 39
+old block found in Inode 13 and iblock 1 and dlblock 39
+old block found in Inode 14 and iblock 1 and dlblock 39
+old block found in Inode 15 and iblock 1 and dlblock 39
+old block found in Inode 16 and iblock 1 and dlblock 39
+old block found in Inode 17 and iblock 1 and dlblock 39
+old block found in Inode 18 and iblock 1 and dlblock 39
+old block found in Inode 19 and iblock 1 and dlblock 39
+current Dblock idx in our inode = 7
+dblock 6080 out of order
+swapping
+current Dblock idx in our inode = 8
+dblock 6027 out of order
+swapping
+current Dblock idx in our inode = 9
+dblock 2683 out of order
+swapping
+indirect index 0 and value 3803
+indirect index 1 and value 3816
+indirect index 2 and value 2258
+indirect index 3 and value 4424
+indirect index 4 and value 890
+indirect index 5 and value 262
+indirect index 6 and value 4138
+indirect index 7 and value 8728
+indirect index 8 and value 346
+indirect index 9 and value 880
+indirect index 10 and value 4277
+indirect index 11 and value 3903
+indirect index 12 and value 5207
+indirect index 13 and value 7613
+indirect index 14 and value 8373
+indirect index 15 and value 4671
+indirect index 16 and value 4000
+indirect index 17 and value 3684
+indirect index 18 and value 7703
+indirect index 19 and value 4325
+indirect index 20 and value 8222
+indirect index 21 and value 174
+indirect index 22 and value 8206
+indirect index 23 and value 212
+indirect index 24 and value 6590
+indirect index 25 and value 2763
+indirect index 26 and value 6293
+indirect index 27 and value 2481
+indirect index 28 and value 5446
+indirect index 29 and value 695
+indirect index 30 and value 8911
+indirect index 31 and value 9250
+indirect index 32 and value 4511
+indirect index 33 and value 1034
+indirect index 34 and value 3538
+indirect index 35 and value 5401
+indirect index 36 and value 1296
+indirect index 37 and value 7677
+indirect index 38 and value 3994
+indirect index 39 and value 1643
+indirect index 40 and value 8557
+indirect index 41 and value 8272
+indirect index 42 and value 5546
+indirect index 43 and value 3628
+indirect index 44 and value 5750
+indirect index 45 and value 3784
+indirect index 46 and value 8300
+indirect index 47 and value 9750
+indirect index 48 and value 7469
+indirect index 49 and value 5868
+indirect index 50 and value 3939
+indirect index 51 and value 5555
+indirect index 52 and value 6042
+indirect index 53 and value 2010
+indirect index 54 and value 5768
+indirect index 55 and value 2496
+indirect index 56 and value 4773
+indirect index 57 and value 1925
+indirect index 58 and value 4978
+indirect index 59 and value 84
+indirect index 60 and value 2620
+indirect index 61 and value 3753
+indirect index 62 and value 9335
+indirect index 63 and value 7131
+indirect index 64 and value 4788
+indirect index 65 and value 2737
+indirect index 66 and value 2397
+indirect index 67 and value 6085
+indirect index 68 and value 279
+indirect index 69 and value 6391
+indirect index 70 and value 7728
+indirect index 71 and value 8836
+indirect index 72 and value 4528
+indirect index 73 and value 3139
+indirect index 74 and value 2329
+indirect index 75 and value 142
+indirect index 76 and value 6923
+indirect index 77 and value 494
+indirect index 78 and value 9893
+indirect index 79 and value 4256
+indirect index 80 and value 6362
+indirect index 81 and value 3696
+indirect index 82 and value 9811
+indirect index 83 and value 2268
+indirect index 84 and value 5707
+indirect index 85 and value 5444
+indirect index 86 and value 4764
+indirect index 87 and value 344
+indirect index 88 and value 7369
+indirect index 89 and value 9743
+indirect index 90 and value 429
+indirect index 91 and value 9990
+indirect index 92 and value 3361
+indirect index 93 and value 9764
+indirect index 94 and value 6986
+indirect index 95 and value 8149
+indirect index 96 and value 2366
+indirect index 97 and value 9383
+indirect index 98 and value 4098
+indirect index 99 and value 2645
+indirect index 100 and value 5639
+indirect index 101 and value 1691
+indirect index 102 and value 1346
+indirect index 103 and value 32
+indirect index 104 and value 4831
+indirect index 105 and value 3675
+indirect index 106 and value 1618
+indirect index 107 and value 4170
+indirect index 108 and value 10067
+indirect index 109 and value 5875
+indirect index 110 and value 396
+indirect index 111 and value 5551
+indirect index 112 and value 2665
+indirect index 113 and value 9336
+indirect index 114 and value 859
+indirect index 115 and value 7430
+indirect index 116 and value 9680
+indirect index 117 and value 8229
+indirect index 118 and value 7037
+indirect index 119 and value 8083
+indirect index 120 and value 9739
+indirect index 121 and value 4933
+indirect index 122 and value 8412
+indirect index 123 and value 1970
+indirect index 124 and value 4181
+indirect index 125 and value 2375
+indirect index 126 and value 4616
+indirect index 127 and value 9821
+indirect index 0 and value 5962
+indirect index 1 and value 9853
+indirect index 2 and value 8898
+indirect index 3 and value 9638
+indirect index 4 and value 10028
+indirect index 5 and value 380
+indirect index 6 and value 3672
+indirect index 7 and value 9960
+indirect index 8 and value 6256
+indirect index 9 and value 4069
+indirect index 10 and value 3452
+indirect index 11 and value 1671
+indirect index 12 and value 6735
+indirect index 13 and value 2653
+indirect index 14 and value 2531
+indirect index 15 and value 2197
+indirect index 16 and value 624
+indirect index 17 and value 931
+indirect index 18 and value 2172
+indirect index 19 and value 8708
+indirect index 20 and value 1193
+indirect index 21 and value 1776
+indirect index 22 and value 3506
+indirect index 23 and value 9605
+indirect index 24 and value 3746
+indirect index 25 and value 7687
+indirect index 26 and value 1844
+indirect index 27 and value 7373
+indirect index 28 and value 5911
+indirect index 29 and value 4189
+indirect index 30 and value 7090
+indirect index 31 and value 4673
+indirect index 32 and value 3691
+indirect index 33 and value 6982
+indirect index 34 and value 5054
+indirect index 35 and value 7364
+indirect index 36 and value 6807
+indirect index 37 and value 1175
+indirect index 38 and value 1297
+indirect index 39 and value 124
+indirect index 40 and value 2847
+indirect index 41 and value 8032
+indirect index 42 and value 2777
+indirect index 43 and value 5378
+indirect index 44 and value 1926
+indirect index 45 and value 4975
+indirect index 46 and value 6003
+indirect index 47 and value 2857
+indirect index 48 and value 7147
+indirect index 49 and value 4575
+indirect index 50 and value 4050
+indirect index 51 and value 8923
+indirect index 52 and value 8082
+indirect index 53 and value 3520
+indirect index 54 and value 2534
+indirect index 55 and value 5634
+indirect index 56 and value 5365
+indirect index 57 and value 761
+indirect index 58 and value 2871
+indirect index 59 and value 1141
+indirect index 60 and value 4950
+indirect index 61 and value 9962
+indirect index 62 and value 5815
+indirect index 63 and value 8641
+indirect index 64 and value 6809
+indirect index 65 and value 733
+indirect index 66 and value 5869
+indirect index 67 and value 3480
+indirect index 68 and value 1909
+indirect index 69 and value 7167
+indirect index 70 and value 3604
+indirect index 71 and value 4756
+indirect index 72 and value 5063
+indirect index 73 and value 6381
+indirect index 74 and value 10134
+indirect index 75 and value 6990
+indirect index 76 and value 1220
+indirect index 77 and value 6002
+indirect index 78 and value 9847
+indirect index 79 and value 8368
+indirect index 80 and value 442
+indirect index 81 and value 3762
+indirect index 82 and value 7156
+indirect index 83 and value 8524
+indirect index 84 and value 7283
+indirect index 85 and value 9690
+indirect index 86 and value 4022
+indirect index 87 and value 2512
+indirect index 88 and value 315
+indirect index 89 and value 6894
+indirect index 90 and value 3654
+indirect index 91 and value 5265
+indirect index 92 and value 6720
+indirect index 93 and value 9469
+indirect index 94 and value 3771
+indirect index 95 and value 3393
+indirect index 96 and value 67
+indirect index 97 and value 9641
+indirect index 98 and value 6874
+indirect index 99 and value 6672
+indirect index 100 and value 342
+indirect index 101 and value 6732
+indirect index 102 and value 1600
+indirect index 103 and value 6724
+indirect index 104 and value 6731
+indirect index 105 and value 8590
+indirect index 106 and value 7945
+indirect index 107 and value 2597
+indirect index 108 and value 8301
+indirect index 109 and value 6177
+indirect index 110 and value 3039
+indirect index 111 and value 1928
+indirect index 112 and value 3197
+indirect index 113 and value 1428
+indirect index 114 and value 9211
+indirect index 115 and value 2752
+indirect index 116 and value 5450
+indirect index 117 and value 1588
+indirect index 118 and value 3068
+indirect index 119 and value 2208
+indirect index 120 and value 5242
+indirect index 121 and value 8334
+indirect index 122 and value 8929
+indirect index 123 and value 4576
+indirect index 124 and value 2187
+indirect index 125 and value 4643
+indirect index 126 and value 1475
+indirect index 127 and value 9061
+indirect index 0 and value 8147
+indirect index 1 and value 9404
+indirect index 2 and value 3217
+indirect index 3 and value 9748
+indirect index 4 and value 5992
+indirect index 5 and value 9949
+indirect index 6 and value 8202
+indirect index 7 and value 3801
+indirect index 8 and value 2410
+indirect index 9 and value 6368
+indirect index 10 and value 9979
+indirect index 11 and value 8297
+indirect index 12 and value 3040
+indirect index 13 and value 6878
+indirect index 14 and value 7372
+indirect index 15 and value 5793
+indirect index 16 and value 2193
+indirect index 17 and value 8961
+indirect index 18 and value 8862
+indirect index 19 and value 4402
+indirect index 20 and value 4067
+indirect index 21 and value 7061
+indirect index 22 and value 3195
+indirect index 23 and value 8644
+indirect index 24 and value 9031
+indirect index 25 and value 5382
+indirect index 26 and value 3152
+indirect index 27 and value 370
+indirect index 28 and value 4307
+indirect index 29 and value 9772
+indirect index 30 and value 8518
+indirect index 31 and value 3576
+indirect index 32 and value 2853
+indirect index 33 and value 8130
+indirect index 34 and value 9568
+indirect index 35 and value 6197
+indirect index 36 and value 3234
+indirect index 37 and value 5077
+indirect index 38 and value 2430
+indirect index 39 and value 3077
+indirect index 40 and value 392
+indirect index 41 and value 591
+indirect index 42 and value 6118
+indirect index 43 and value 7271
+indirect index 44 and value 7964
+indirect index 45 and value 1775
+indirect index 46 and value 9464
+indirect index 47 and value 6789
+indirect index 48 and value 502
+indirect index 49 and value 3730
+indirect index 50 and value 721
+indirect index 51 and value 7563
+indirect index 52 and value 6926
+indirect index 53 and value 9365
+indirect index 54 and value 6458
+indirect index 55 and value 2381
+indirect index 56 and value 6828
+indirect index 57 and value 6480
+indirect index 58 and value 2018
+indirect index 59 and value 5211
+indirect index 60 and value 10056
+indirect index 61 and value 4872
+indirect index 62 and value 3205
+indirect index 63 and value 9489
+indirect index 64 and value 7539
+indirect index 65 and value 9403
+indirect index 66 and value 2587
+indirect index 67 and value 2480
+indirect index 68 and value 1698
+indirect index 69 and value 5664
+indirect index 70 and value 2873
+indirect index 71 and value 2289
+indirect index 72 and value 1646
+indirect index 73 and value 8
+indirect index 74 and value 118
+indirect index 75 and value 3422
+indirect index 76 and value 9472
+indirect index 77 and value 6908
+indirect index 78 and value 3924
+indirect index 79 and value 3067
+indirect index 80 and value 7629
+indirect index 81 and value 1351
+indirect index 82 and value 9993
+indirect index 83 and value 6859
+indirect index 84 and value 7809
+indirect index 85 and value 2030
+indirect index 86 and value 9241
+indirect index 87 and value 4502
+indirect index 88 and value 8511
+indirect index 89 and value 1123
+
+Inode 19 -
+Next inode: 0
+Protect: 0
+Nlink: 1
+Size: 1956
+Uid: 18390
+Gid: 9921
+Ctime: 1786486042
+Mtime: 1270338136
+Atime: 589798397
+Dblocks: [7785, 3399, 2051, 236, -1, -1, -1, -1, -1, -1]
+Iblocks: [-1, -1, -1, -1]
+I2block: -1
+I3block: -1
+Inode in use
+current Dblock idx in our inode = 0
+dblock 7785 out of order
+swapping
+current Dblock idx in our inode = 1
+dblock 3399 out of order
+swapping
+current Dblock idx in our inode = 2
+dblock 2051 out of order
+swapping
+current Dblock idx in our inode = 3
+dblock 236 out of order
+swapping
+current Dblock idx in our inode = 4
+hit start of free dblocks
+Start of Defragmented data
+
+
+
+
+
+Inode 0 -
+Next inode: 0
+Protect: 0
+Nlink: 1
+Size: 10758
+Uid: 18390
+Gid: 9921
+Ctime: 817604475
+Mtime: 1151884739
+Atime: 1406662470
+Dblocks: [6034, 5089, 565, 9321, 9741, 1483, 4437, 8791, 2058, 5932]
+Iblocks: [2174, -1, -1, -1]
+I2block: -1
+I3block: -1
+
+Inode 1 -
+Next inode: 0
+Protect: 0
+Nlink: 1
+Size: 21851
+Uid: 18390
+Gid: 9921
+Ctime: 1366835985
+Mtime: 217377395
+Atime: 1107718661
+Dblocks: [4884, 2073, 2491, 9116, 717, 866, 7593, 6799, 4609, 7193]
+Iblocks: [4883, -1, -1, -1]
+I2block: -1
+I3block: -1
+
+Inode 2 -
+Next inode: 0
+Protect: 0
+Nlink: 1
+Size: 42284
+Uid: 18390
+Gid: 9921
+Ctime: 1210328772
+Mtime: 187833613
+Atime: 1701944601
+Dblocks: [3736, 2245, 7845, 5696, 740, 1362, 4701, 10113, 8086, 4121]
+Iblocks: [1374, -1, -1, -1]
+I2block: -1
+I3block: -1
+
+Inode 3 -
+Next inode: -1
+Protect: 0
+Nlink: 0
+Size: 0
+Uid: 0
+Gid: 0
+Ctime: 0
+Mtime: 0
+Atime: 0
+Dblocks: [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+Iblocks: [-1, -1, -1, -1]
+I2block: -1
+I3block: -1
+
+Inode 4 -
+Next inode: 0
+Protect: 0
+Nlink: 1
+Size: 4002
+Uid: 18390
+Gid: 9921
+Ctime: 1622537713
+Mtime: 514099302
+Atime: 1611578054
+Dblocks: [6107, 9727, 3476, 6957, 8802, 7985, 7262, 2501, -1, -1]
+Iblocks: [-1, -1, -1, -1]
+I2block: -1
+I3block: -1
+
+Inode 5 -
+Next inode: 3
+Protect: 0
+Nlink: 0
+Size: 0
+Uid: 0
+Gid: 0
+Ctime: 0
+Mtime: 0
+Atime: 0
+Dblocks: [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+Iblocks: [-1, -1, -1, -1]
+I2block: -1
+I3block: -1
+
+Inode 6 -
+Next inode: 0
+Protect: 0
+Nlink: 1
+Size: 346
+Uid: 18390
+Gid: 9921
+Ctime: 1412809354
+Mtime: 519437484
+Atime: 316054371
+Dblocks: [6065, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+Iblocks: [-1, -1, -1, -1]
+I2block: -1
+I3block: -1
+
+Inode 7 -
+Next inode: 0
+Protect: 0
+Nlink: 1
+Size: 20024
+Uid: 18390
+Gid: 9921
+Ctime: 217098642
+Mtime: 1837871857
+Atime: 1002022041
+Dblocks: [2891, 3833, 1375, 4071, 4565, 2574, 2474, 5682, 6201, 8733]
+Iblocks: [3985, -1, -1, -1]
+I2block: -1
+I3block: -1
+
+Inode 8 -
+Next inode: 5
+Protect: 0
+Nlink: 0
+Size: 0
+Uid: 0
+Gid: 0
+Ctime: 0
+Mtime: 0
+Atime: 0
+Dblocks: [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+Iblocks: [-1, -1, -1, -1]
+I2block: -1
+I3block: -1
+
+Inode 9 -
+Next inode: 0
+Protect: 0
+Nlink: 1
+Size: 16964
+Uid: 18390
+Gid: 9921
+Ctime: 1314982166
+Mtime: 1132409098
+Atime: 1190405849
+Dblocks: [9022, 8627, 2312, 4751, 3676, 6215, 6912, 6442, 1216, 4210]
+Iblocks: [5935, -1, -1, -1]
+I2block: -1
+I3block: -1
+
+Inode 10 -
+Next inode: 0
+Protect: 0
+Nlink: 1
+Size: 229944
+Uid: 18390
+Gid: 9921
+Ctime: 914164915
+Mtime: 1688234421
+Atime: 211308652
+Dblocks: [2067, 2921, 1563, 1252, 2527, 7513, 2736, 6964, 6168, 4794]
+Iblocks: [2760, 9049, 759, 9829]
+I2block: -1
+I3block: -1
+
+Inode 11 -
+Next inode: 0
+Protect: 0
+Nlink: 1
+Size: 184059
+Uid: 18390
+Gid: 9921
+Ctime: 794438987
+Mtime: 1250204784
+Atime: 1854512041
+Dblocks: [6039, 7547, 8761, 6158, 833, 8098, 2930, 4757, 1029, 424]
+Iblocks: [6109, 8562, 7692, -1]
+I2block: -1
+I3block: -1
+
+Inode 12 -
+Next inode: 0
+Protect: 0
+Nlink: 1
+Size: 93821
+Uid: 18390
+Gid: 9921
+Ctime: 86291338
+Mtime: 146451080
+Atime: 257953503
+Dblocks: [8856, 7217, 6803, 3570, 4585, 1544, 7888, 6444, 5808, 9625]
+Iblocks: [1862, 8248, -1, -1]
+I2block: -1
+I3block: -1
+
+Inode 13 -
+Next inode: 0
+Protect: 0
+Nlink: 1
+Size: 15164
+Uid: 18390
+Gid: 9921
+Ctime: 1625393654
+Mtime: 1002637252
+Atime: 1655750788
+Dblocks: [5257, 2384, 8031, 9518, 4925, 8564, 5518, 1448, 8580, 6394]
+Iblocks: [3940, -1, -1, -1]
+I2block: -1
+I3block: -1
+
+Inode 14 -
+Next inode: 0
+Protect: 0
+Nlink: 1
+Size: 1273
+Uid: 18390
+Gid: 9921
+Ctime: 1678380632
+Mtime: 455708158
+Atime: 1033999376
+Dblocks: [10097, 2373, 5996, -1, -1, -1, -1, -1, -1, -1]
+Iblocks: [-1, -1, -1, -1]
+I2block: -1
+I3block: -1
+
+Inode 15 -
+Next inode: 0
+Protect: 0
+Nlink: 1
+Size: 86
+Uid: 18390
+Gid: 9921
+Ctime: 1452797107
+Mtime: 1864832770
+Atime: 1780807836
+Dblocks: [3607, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+Iblocks: [-1, -1, -1, -1]
+I2block: -1
+I3block: -1
+
+Inode 16 -
+Next inode: 0
+Protect: 0
+Nlink: 1
+Size: 2324
+Uid: 18390
+Gid: 9921
+Ctime: 2087005522
+Mtime: 1660714484
+Atime: 17815032
+Dblocks: [6877, 5685, 4327, 3335, 4470, -1, -1, -1, -1, -1]
+Iblocks: [-1, -1, -1, -1]
+I2block: -1
+I3block: -1
+
+Inode 17 -
+Next inode: 0
+Protect: 0
+Nlink: 1
+Size: 250637
+Uid: 18390
+Gid: 9921
+Ctime: 547108584
+Mtime: 698147071
+Atime: 1292578230
+Dblocks: [8101, 4743, 197, 6545, 1001, 3575, 9698, 5601, 3031, 5730]
+Iblocks: [3035, 1060, 7749, 8535]
+I2block: -1
+I3block: -1
+
+Inode 18 -
+Next inode: 0
+Protect: 0
+Nlink: 1
+Size: 181905
+Uid: 18390
+Gid: 9921
+Ctime: 1381881857
+Mtime: 1154152371
+Atime: 642236116
+Dblocks: [324, 4537, 2606, 3881, 2126, 6416, 4693, 6080, 6027, 2683]
+Iblocks: [6429, 4066, 6620, -1]
+I2block: -1
+I3block: -1
+
+Inode 19 -
+Next inode: 0
+Protect: 0
+Nlink: 1
+Size: 1956
+Uid: 18390
+Gid: 9921
+Ctime: 1786486042
+Mtime: 1270338136
+Atime: 589798397
+Dblocks: [7785, 3399, 2051, 236, -1, -1, -1, -1, -1, -1]
+Iblocks: [-1, -1, -1, -1]
+I2block: -1
+I3block: -1
+Data Block 0 - Value: -1
+Data Block 1 - Value: 0
+Data Block 2 - Value: 1
+Data Block 3 - Value: 2
+Data Block 4 - Value: 3
+Data Block 5 - Value: 4
+Data Block 6 - Value: 5
+Data Block 7 - Value: 6
+Data Block 8 - Value: 668996630
+Data Block 9 - Value: 7
+Data Block 10 - Value: 9
+Data Block 11 - Value: 10
+Data Block 12 - Value: 11
+Data Block 13 - Value: 12
+Data Block 14 - Value: 13

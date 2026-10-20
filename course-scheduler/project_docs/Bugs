@@ -1,0 +1,3 @@
+Bugs
+1. RegistrationManager constructor does not declare a courseCatalog or studentDirectory
+2. Logout should not set the current user to 

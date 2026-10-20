@@ -1,0 +1,76 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><element><id>UMLGeneric</id><coordinates><x>10</x><y>40</y><w>100</w><h>30</h></coordinates><panel_attributes>_Front End_
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>160</x><y>40</y><w>140</w><h>30</h></coordinates><panel_attributes>_APIRecipeController_
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>330</x><y>40</y><w>100</w><h>30</h></coordinates><panel_attributes>_Recipe_
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>680</x><y>40</y><w>130</w><h>30</h></coordinates><panel_attributes>_RecipeRepository_
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>60</x><y>60</y><w>30</w><h>660</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;640</additional_attributes></element><element><id>Relation</id><coordinates><x>750</x><y>60</y><w>30</w><h>210</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;190</additional_attributes></element><element><id>Relation</id><coordinates><x>420</x><y>60</y><w>30</w><h>110</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>60</x><y>90</y><w>180</w><h>40</h></coordinates><panel_attributes>lt=-&gt;&gt;&gt;
+createRecipe(recipe)</panel_attributes><additional_attributes>10;20;160;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>220</x><y>110</y><w>20</w><h>600</h></coordinates><panel_attributes>
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>220</x><y>60</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>190</x><y>130</y><w>290</w><h>50</h></coordinates><panel_attributes>lt=-&gt;&gt;&gt;
+recipe.addNewIngredient(ingredient: Ingredient)
+</panel_attributes><additional_attributes>50;20;230;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>420</x><y>150</y><w>20</w><h>40</h></coordinates><panel_attributes>
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>600</x><y>610</y><w>30</w><h>110</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>360</x><y>170</y><w>240</w><h>50</h></coordinates><panel_attributes>lt=&lt;..
+Ingredient(name: String, amount: int)
+</panel_attributes><additional_attributes>170;20;60;20</additional_attributes></element><element><id>Relation</id><coordinates><x>230</x><y>210</y><w>390</w><h>40</h></coordinates><panel_attributes>lt=-&gt;&gt;&gt;
+recipeService.findByName(name)</panel_attributes><additional_attributes>10;20;370;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>600</x><y>230</y><w>20</w><h>80</h></coordinates><panel_attributes>
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>420</x><y>360</y><w>30</w><h>350</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;330</additional_attributes></element><element><id>Relation</id><coordinates><x>600</x><y>230</y><w>180</w><h>60</h></coordinates><panel_attributes>lt=-&gt;&gt;&gt;
+RecipeRepository.findOne()
+
+</panel_attributes><additional_attributes>20;20;150;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>750</x><y>250</y><w>20</w><h>40</h></coordinates><panel_attributes>
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>610</x><y>270</y><w>160</w><h>40</h></coordinates><panel_attributes>lt=&lt;..
+DomainObject</panel_attributes><additional_attributes>10;20;140;20</additional_attributes></element><element><id>Relation</id><coordinates><x>230</x><y>290</y><w>390</w><h>40</h></coordinates><panel_attributes>lt=&lt;..
+Recipe</panel_attributes><additional_attributes>10;20;370;20</additional_attributes></element><element><id>UMLFrame</id><coordinates><x>30</x><y>400</y><w>760</w><h>270</h></coordinates><panel_attributes>alt
+--
+[RecipeService.findByName() != null]
+
+
+
+-..
+[else]
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>60</x><y>380</y><w>180</w><h>40</h></coordinates><panel_attributes>lt=&lt;..
+ResponseEntity</panel_attributes><additional_attributes>10;20;160;20</additional_attributes></element><element><id>UMLFrame</id><coordinates><x>50</x><y>510</y><w>730</w><h>150</h></coordinates><panel_attributes>alt
+--
+[recipeService.count() &lt; 3]
+
+
+
+
+
+
+
+-..
+[else]
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>70</x><y>640</y><w>230</w><h>40</h></coordinates><panel_attributes>lt=&lt;..
+ResponseEntity</panel_attributes><additional_attributes>10;20;210;20</additional_attributes></element><element><id>Relation</id><coordinates><x>230</x><y>550</y><w>390</w><h>40</h></coordinates><panel_attributes>lt=-&gt;&gt;&gt;
+save()</panel_attributes><additional_attributes>10;20;370;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>750</x><y>560</y><w>20</w><h>40</h></coordinates><panel_attributes>
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>750</x><y>280</y><w>30</w><h>300</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;280</additional_attributes></element><element><id>Relation</id><coordinates><x>750</x><y>590</y><w>30</w><h>130</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;110</additional_attributes></element><element><id>Relation</id><coordinates><x>70</x><y>640</y><w>230</w><h>40</h></coordinates><panel_attributes>lt=&lt;..
+ResponseEntity</panel_attributes><additional_attributes>10;20;210;20</additional_attributes></element><element><id>Relation</id><coordinates><x>230</x><y>600</y><w>390</w><h>40</h></coordinates><panel_attributes>lt=&lt;..
+void</panel_attributes><additional_attributes>10;20;370;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>560</x><y>40</y><w>110</w><h>30</h></coordinates><panel_attributes>_RecipeService_
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>600</x><y>60</y><w>30</w><h>190</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;170</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>600</x><y>540</y><w>20</w><h>80</h></coordinates><panel_attributes>
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>600</x><y>300</y><w>30</w><h>260</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;240</additional_attributes></element><element><id>Relation</id><coordinates><x>610</x><y>550</y><w>160</w><h>40</h></coordinates><panel_attributes>lt=-&gt;&gt;&gt;
+save()</panel_attributes><additional_attributes>10;20;140;20</additional_attributes></element><element><id>Relation</id><coordinates><x>610</x><y>570</y><w>160</w><h>40</h></coordinates><panel_attributes>lt=&lt;..
+void</panel_attributes><additional_attributes>10;20;140;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>450</x><y>40</y><w>100</w><h>30</h></coordinates><panel_attributes>_Ingredient_
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>530</x><y>60</y><w>30</w><h>110</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>530</x><y>180</y><w>30</w><h>530</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;510</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>530</x><y>150</y><w>20</w><h>40</h></coordinates><panel_attributes>
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>820</x><y>40</y><w>130</w><h>30</h></coordinates><panel_attributes>_IngredientRepository_
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>960</x><y>40</y><w>130</w><h>30</h></coordinates><panel_attributes>_IngredientRepository_
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>880</x><y>60</y><w>30</w><h>260</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;240</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>880</x><y>300</y><w>20</w><h>80</h></coordinates><panel_attributes>
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>880</x><y>370</y><w>30</w><h>320</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;300</additional_attributes></element><element><id>Relation</id><coordinates><x>1010</x><y>60</y><w>30</w><h>260</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;240</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>1010</x><y>300</y><w>20</w><h>80</h></coordinates><panel_attributes>
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1010</x><y>370</y><w>30</w><h>320</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;300</additional_attributes></element><element><id>Relation</id><coordinates><x>230</x><y>310</y><w>670</w><h>40</h></coordinates><panel_attributes>lt=-&gt;&gt;&gt;
+ingredientService.findByName(name)</panel_attributes><additional_attributes>10;20;650;20</additional_attributes></element><element><id>Relation</id><coordinates><x>840</x><y>310</y><w>240</w><h>60</h></coordinates><panel_attributes>lt=-&gt;&gt;&gt;
+IngredientRepository.findIngredient()
+
+</panel_attributes><additional_attributes>60;20;170;20</additional_attributes></element><element><id>UMLFrame</id><coordinates><x>30</x><y>130</y><w>440</w><h>150</h></coordinates><panel_attributes>alt
+--
+[recipe.addNewIngredient(ingredient: Ingredient) != false]
+
+
+-..
+[else]
+
+Error message
+ingredientService.count() = 0
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>890</x><y>340</y><w>140</w><h>40</h></coordinates><panel_attributes>lt=&lt;..
+DomainObject</panel_attributes><additional_attributes>10;20;120;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>420</x><y>330</y><w>20</w><h>40</h></coordinates><panel_attributes>
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>420</x><y>180</y><w>30</w><h>170</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;150</additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>340</y><w>470</w><h>40</h></coordinates><panel_attributes>lt=&lt;..
+Ingredient</panel_attributes><additional_attributes>10;20;450;20</additional_attributes></element></diagram>
